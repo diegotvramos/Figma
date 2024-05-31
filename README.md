@@ -239,6 +239,76 @@ links de las páginas que tiene diseños gratuitos lo encontramos en: _https://j
 
 ![linux](/assets/linux.png)
 
+## Textos (GoogleFonts y FontAwesome)
+
+si tu tienes un diseño construido en ilustrator puedes pasarlo a Figma copy - paste 
+
+Tenemos una gran cantidad de opciones para el texto. 
+
+Mira que tenemos bastantes tipografias mucha de las tipografias de Figma vienen heredadas de Google Fonts.
+
+> Recuerda que Figma es una herramienta que nos va ayudar (a los que nos dediquemos a la parte del diseño de experiencia de usuario) a prototipar ya sea para aplicaciones nativas o para aplicaciones en la _Web_ 
+
+En algun momento nuestros prototipos van a llegar a las manos de los diseñadores _web_ y programadores, entonces el tener las mismas fuentes que solemos utilizar los desarrolladores, ayuda mucho.
+
+Dependiendo la tipografia que tu selecciones te van aparecer los diferentes estilos o variantes que tiene.
+
+⚠ las caracteristicas que le dejamos a la caja de texto anterior las hereda la nueva caja. 
+
+![tipografia](/assets/tipografia.png)
+
+> auto height => la caja crece en vertical.
+
+> auto with => la caja crece en horizontal
+
+> fixed Size => tamaño de caja fija
+
+tambien tenemos iconos gratuitos de _FontAwesome_ simplemente agregas texto y pones la palabra eje: 'angry'
+
+si tu quieres utilizar un menú de redes sociales puedes utilizar la integracion de _FontAwesome_ 
+
+![iconos-fontAwesome](/assets/iconos-fontAwesome.png)
+
+## Reglas y Guias (shift + R)
+
+Vamos a aprender una serie de herramientas que nos van a yudar mucho  cuando estemos prototipando
+
+Las reglas aparecen tanto en el eje vertical como en el eje horizontal.
+
+independientemente de que el lienzo de Figma es infinito digamos que hay un origen `0,0` las guias
+
+Las reglas en Figma tienen la capacidad de detectar si estas viendo el todo `ZOOM to FIT` `SHIFT + 1` son reglas dinámicas
+
+![rules-figma](/assets/rules-figma.png)
+
+todo ese espacio azul en la regla muestra el tamaño del frame selecionado en ese momento.
+
+¿Pero para qué te pueden servir las guias?
+
+![poster-youtube](/assets/poster-youtube.png)
+
+un ejemplo claro seria para los posters de Youtube, que te pide no rebasar estas medidas.
+
+¿Por qué esas dimenciones?
+
+por que Youtube no solo se visualiza en la PC sinó en varios dispositivos de formas y taños diferentes.
+
+Youtube va adaptando dependiendo del dispositivo en el que estamos consumiendo Youtube. 
+
+Pero con los años yo me dicuenta el rectangulo para el poster de Youtube siempre lo mantiene.
+
+![poster-jonmircha](/assets/poster-jonmircha.png)
+
+Jonmircha - 'las guias me sirviero para que mis logos no exceda las dimenciones que me piede youtube por que todo el excedente dependiendo del dispositivo que esté viendo el usuario se perderia'
+
+![poster-jonmircha-2](/assets/poster-jonmircha-2.png)
+
+las guias las quitas sobreponiendolas en la regla respectiva así como vas poniendo el maus sobre la regla y jalando haciendo click, asi de la misma manera.
+
+
+
+
+
 
 
 
