@@ -182,8 +182,62 @@ Tambien puedo agregar imágnes con la opción : `place Image`
 
 ![agregar-imagen](/assets/agregar-imagen.png)
 
-## 
+## Mapas de Bits (imágenes)
 
+Hay diferentes maneras de pasar imágnes a Figma.
+
+> arrastrandolas (tanto de la interfaz _web_ como la interfáz de la app de escritorio)
+>> recuerda que al arrastrar y soltar toma el tamaño original de la imagen
+
+Los componenetes como el rectángulo se pueden rellenar con imagenes
+
+![imagen-relleno](/assets/imagen-relleno.JPG)
+
+**herro image**
+
+![hero-image](/assets/hero-image.png)
+
+a cualquier elemento vectorial generado por figma como el rectangulo, la estrella, la elipce yo podria ponerle como relleno o como fondo una imagen
+
+entre las opciones de imagen podemos encontrar muy similares a las opciones de CSS
+
+![opciones-image](/assets/opciones-imagen.png)
+
+las imagenes en Figma se trabaja como si fuera un _background_ 
+
+## Vectores (SVGs)
+
+tambien soporta un GIF ANIMADOS.
+
+En este video vamos a ver las diferentes opciones que tenemos para incertar vectores 
+
+Figma es una herramienta de diseño vectorial, toda las figuras geometricas que trae y la opcion de 'lapiz' 'pen' son vectores
+
+asi como freehand(extinto), ilustrator, animate, flash
+
+los _Frames_  no solamente son esa area especifica en la que nosotros vamos a diseñar cierto tamaño de pantalla o de dispositivo mobil o de reloj inteligente
+
+![frame](/assets/frame.png)
+
+> cuando nosotros exportamos un objeto vectorial que no ha sido construido con la herramienta de Figma, se crea un _frame_ 
+
+cuando ustedes exportan un SVG ajeno a Figma lo va guardar en un _Frame_ propio
+
+con `Ctrl` seleccionamos los elementos para posteriormente agruparlos con `Ctrl + G`
+
+![grupo](/assets/grupo.png)
+
+> importante! Traten de dar un nombre correcto del elemento al que estamos trabajando.
+
+los vectores de Adobe son soportadas por Figma
+
+SVG es una especificacion de XML 
+
+links de las páginas que tiene diseños gratuitos lo encontramos en: _https://jonmircha.com/figma_
+
+> iconos de marcas reconocidas en SVG (vectores) `https://simpleicons.org/` 
+
+![linux](/assets/linux.png)
 
 
 
