@@ -305,12 +305,87 @@ Jonmircha - 'las guias me sirviero para que mis logos no exceda las dimenciones 
 
 las guias las quitas sobreponiendolas en la regla respectiva así como vas poniendo el maus sobre la regla y jalando haciendo click, asi de la misma manera.
 
+## Alineaciones
+
+hoy aprenderemos a alinear los elementos.
+
+Cuando yo selecciono un elemento aca arriba ve que vienen los elementos para posicionar dicho elemento respecto del lienzo
+
+![alineacion-figma](/assets/alineacion-figma.png)
+
+arriba, abajo, izquierda, derecha, centro
+
+**distribuir el espacio**
+
+ya sea vertical u horizontal, para activar estas funcionalidades de alineación necesitamos más de un elemento 
+
+pero antes dibujamos un _frame_ con el atajo `F`
+
+> Recuerda! cualquier vector externo ajeno a ser dibujado con las herramientas de Figma, figma los ubica como un _frame_ independiente
+
+recuerda que debe haber un espacio entre elementos.
+
+![alineación-iconos](/assets/alineacion-iconos.png)
+
+en este caso no existe dicho espacio
+
+el espacio que hay entre el primer elemento y el último lo va distribuir proporcionalmente
+
+![alineación-espaciado](/assets/alineacion-espaciado.png)
+
+toma como referencia siempre el espacio que hay entre el primer elemento y el último.
+
+![alineación-vertical-horizontal](/assets/alineación-vertical-horizontal.png)
+
+para agrupar elementos primero seleccionamos todo los elementos que queremos agrupar, seguidamente precionamos `Ctrl + G`
+
+esto de agrupar nos va servir para alinear un grupo de elementos ariba, abajo, etc.
+
+La alineación va variar dependiendo si tenemos un elemento o varios.
+
+
+##  Constraints
+
+![restriccion](/assets/restricion.png)
+
+esas restricciones tienen el objeto
+
+¿Qué pasa si agrando un _frame_ de mi esquina inferior derecha?
+
+si yo decido crecer un frame, los elemenos se quedan donde estaban, los elementos se quedan posicionados respecto a Left y a Top pero no asi respecto de Right y Bottom 
+
+¿Qué pasa si agrando un _frame_ de mi esquina superior izquierda?
+
+puesse va manejando esa restriccion
+
+¿Donde lo podemos ver muy util?
+
+la mayoria de los sitios web aunque tengamos una gran pantalla siempre como que el contenido del sitio llega a centrarse y tiene un máximo crecimiento(incremento) de anchura
 
 
 
+![duplicacion-frame](/assets/duplicacion-frame.png)
+
+Imaginate que quiero que la cabecera ocupe toda la pantalla
+
+con la caracteristica de left&right en el constraint horizontal ve como los elementos fluyen respecto de esa restriccion
+
+lo que debemos hacer es lo siguiente: 
+
+tanto el ancho del _frame_ y tanto el ancho del componenente debemos alinearlos y poner un mismo ancho eje:
+
+![frame-700](/assets/frame-700px.png)
+
+![componente-700](/assets/componente-700px.png)
+
+puedo hacer tambien un pié de página.
+
+tambien te puede servir para hacer mapas mentales
+
+![al-centro](/assets/al-centro.png)
 
 
-
+##
 
 
 
