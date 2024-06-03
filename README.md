@@ -461,13 +461,71 @@ que pasa si sobre las filas yo necesitara una columnas para generar una cuadricu
 
 al usar 2 layout grid estoy simulando lo que en código seria trabajar con grid CSS 
 
+## Auto Layout
+
+esta opcion permite adaptar y acomodar los elementos dentro del 'frame'
+
+tu puedes activarle a un _frame_ la opcion de _`auto layout`_
+
+para hacerlo seleccionamos el frame y precionamos en la opcion de 'auto layout'
+
+![auto-layout](/assets/auto-layout.png)
+
+ve que recorta el frame y se adapta al tamaño de su contenido
+
+ahora que pasa si los elementos salen del frame, pues los meto al frame en el panel de capas
+
+y precionamos _`auto layout`_ ve que se adapta al tamaño del contenido, osea se agranda el frame? si crece.
+
+![auto-layout-2](/assets/auto-layout-2.png)
+
+imagina que voy hacer un carusel que en movil se va ver una detras de la otra.
+
+
+![auto-layout-carousel](/assets/auto-layout-carousel.png)
+
+
+> Cuando tu aplicas el auto-layout a un 'frame' te arriesgas a que se te modifique el tamaño ya establecido que tenia ese frame
+
+![no-cabe-autolayout](/assets/no-cabe-autolayout.png)
+
+mira que ya no cabe
+
+En lugar de seleccionar el frame y aplicar el 'autolayout' lo que voy a hacer es seleccionar los elementos y preciono _`auto layout`_ ve que se crea un _frame_ que en su interior tiene los cuadrados
+
+![frame-autolayout](/assets/frame-autolayout.png)
+
+ve que hasta el iconito cambia
+
+es un _frame_ de tipo _autolayout_ que está dentro de mi _frame_ iPhone8 
+
+la interfaz de mi ancho de pantalla se respeta, 
+
+¿Qué pasa si yo necesitara eliminar elementos? pues se recore el elemento que se encuentra abajo, si lo hubiera, por que tiene autolayout
+
+![auto-layout-supr](/assets/auto-layout-supr.png)
+
+> se borra con la tecla: `Supr`
+
+selecciona el cuadro `Ctrl + C` & `Ctrl + V` ve que se vuelve a adaptar automáticamente.
+
+![auto-acomodo](/assets/autoacomodo-layout.png)
+
+Cuando estes haciendo una galeria de imágenes una galeria de cards una galeria de testimonios, una botonera o un ménu de navegacion  esto te va ayudar muchisimo
+
+esto se asemeja mucho a la propiedad de flexbox `display-flex`
+
+dependiendo de como vayas dibujando los _wireframes_ o las interfaces aveces el auto-layout te ayuda mucho pero tambien esa caracteristica automática, puede ser que en algunos casos tu quieras aplicar ciertos espaciados muy particulares a un elemento entonces en cualquier momento tu puedes romper con ese auto-layout.
+
+> puedes reconocer si un elemento tiene auto-layout por el iconito que tiene en la parte izquierda del panel de capas
+
+al eleiminar el 'auto-layout' con el icono de **`-`** de un elemento su iconito pasa a ser nuevamente: `#`  y si elimino un elemento ya no hace ese efecto de auto-adaptar los lemenentos
+
+por lo tanto este comportamiento del `auto-layout` es como se comportan los elementos de una caja padre a la que le aplicamos la propiedad `display: flex;` (el modelo de Flexbox CSS)
+
+![no-autolayout](/assets/no-autolayout.png)
+
 ## 
-
-
-
-
-
-
 
 
 
