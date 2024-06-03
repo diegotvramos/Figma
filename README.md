@@ -384,10 +384,84 @@ tambien te puede servir para hacer mapas mentales
 
 ![al-centro](/assets/al-centro.png)
 
+El concepto de _Constraints_ dice hacia que márgenes de los _Frames_ que tu vayas creando se van a ir moviendo o escalando los elementos
 
-##
 
+## Grids
 
+Al seleccionar el _frame_ aparece la opción de _layout grid_ **La GRID es una propiedad de los _frames_** 
+
+antes de que existiera grandes frameworks como: Bootstrap, MaterialCSS, Tailwind. el abuelito de todos esos frameworks fue `'960 grid system'` para hacer sitios _responsiv_ que tenemos al día de hoy 
+
+¿por que el nombre de 960 grid system?
+
+antes de que los dispositivos móviles sorportara un navegador web, la resolución reyna era los monitores de 1024 x 768
+
+![monitor-antiguo](/assets/monitor-antiguo.jpg)
+
+si hacemos una resta de 1024 - 960 = 64 entonces nos sobra 64px
+
+y si 64 / 2 = 32 siginifica que teniamos 32px de margen izquierdo, 960 de contenido y 32px de margen derecho
+
+![columnas](/assets/col-12&col-16.png)
+
+Nos ofrecia una Grid basada en 16 y 12 columnas 
+
+El autogrid que trae Figma ya nos permite hacer esto
+
+> ¡Recuerda! la mayoria de los frameworks modernos trabajan a un sistema de 12 columnas
+
+si para que un elemento ocupe toda la pantalla, la sumatoria de las columnas tiene que dar 12 o 16
+
+si activamos la grid en Figma, puedes cambiar el color y el tamaño de cada cuadrito
+
+![grid-figma](/assets/grid-figma.png)
+
+mira que el tamaño de cada cuadrito representa 10px
+
+> el tamaño base de la tipografia es de 16px
+
+entonces yo voy a tomar como base de 16px para el tamaño de los cuadritos.
+
+imagína que esta targeta la quiero al tamaño de mi dispositivo mobil pero le quiero dar un padding (espaciado interno) de 16px a cada lado
+
+queda de esta manera.
+
+![padding-card](/assets/padding-card.png)
+
+imagina que esta hero image solo la quiero a 3 columnas
+
+![a-3col](/assets/a-3col.png)
+
+enonces activo el 'Layout Grid'
+
+![grid-propiedades](/assets/grid-propiedades.png)
+
+_stretch_  estira toda las columnas proporcionalmente al tamaño del _frame_
+
+_Margin_ el margen derecho e izuierdo
+
+_Gutter_ signica el espaciado que va ver entre las columnas
+
+![resultado-grid](/assets/resultado-grid.png)
+
+Al maquetar generalmente nos preucupamos por las columnas por que las filas como tal ya se van generando de manera automática.
+
+> se me hace raro trabajar en base a filas, pero hay ciertas maquetaciones como la linea del tiempo donde vas acomodando en fila.
+
+en Flexbox podemos trabajar los elementos en fila con la propiedad `flex-direction: row;` y podemos trabajar los elementos en columna con la propiedad `flex-direction: column;`
+
+![delete-add-grid](/assets/delete-add-grid.png)
+
+con el simbolito de '**+**' podemos agregar grids y con el simbolito de '**-**' podemos quitarlo
+
+que pasa si sobre las filas yo necesitara una columnas para generar una cuadricula, lo que seria trabajar con el módulo de Grid CSS
+
+![2-layout-grid](/assets/2-layout-grid.png)
+
+al usar 2 layout grid estoy simulando lo que en código seria trabajar con grid CSS 
+
+## 
 
 
 
