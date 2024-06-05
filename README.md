@@ -525,7 +525,96 @@ por lo tanto este comportamiento del `auto-layout` es como se comportan los elem
 
 ![no-autolayout](/assets/no-autolayout.png)
 
-## 
+## Componenetes
+
+
+
+En las ultimas seciones ya nos hemos orientado a trabajar con herramientas que están más asiciadas a la interface de usuario como es el caso de las _grids_ & _auto-layout_ 
+
+¿Qué es un componente?
+
+contexto: antes habia un software llamado Flash y su lenguaje era ActionScript 3, Flash ya no se utiliza como tecnologia para hacer animaciones o proyectos web pero sigue vivo en la _suift_ de Adobe, y ya no se llama Flash, se llama Animate CC, y si has trabajado con este software, sabes el concepto de simbolo, un simbolo es un elemento gráfico que tu creas, y se guarda en la biblioteca de simbolos de Animate y que tu lo puedes arrastrar al ecenario tantas veces como necesites, se crean copias o instacias(nombre correcto) y entonces tu puedes reutilizarlo.
+
+Entonces hoy veremos ese concepto, muy parecido a los simbolos de Flash(Animate CC) pero en Figma y se llaman **componenetes**, y si tu vienes mas del lado de la programación, diras --eso suena mas como a la librerias React, a los frameworks: Angular y Vuej-- pues sí, si tu has trabajado con esos frameworks Reactivos JS y has creado componentes pues has de cuenta que es el mismo concepto, en el caso de figma es un elemento visual que tú creas y vas a poder reutilizar tantas veces como lo requieras.
+
+No todo es necesario que lo creemos en componentes.
+
+te muestro lo que vamos hacer despues, este es un boseto para un CV
+
+![boseto](/assets/boseto.png)
+
+![boseto-2](/assets/boseto-2.png)
+
+por ejemplo un componente podria ser una Hero Image. podria usarlo varias veces y modificarlo deacuerdo a mis necesidades.
+
+¿Como creamos el componente?
+
+![icono-componente](/assets/icono-crear-componente.png)
+
+este icono que está formado por 4 rombos, es el que nos va permitir crear los componentes o el atajo `Ctrl + Alt + k` 
+
+![seleccionando-componente](/assets/selecionando-componente.png)
+
+mira que al seleccionar el grupo y despues comvertirlo como componente cambia el color y el icono al de una 'flor' de 4 rombos
+
+hasta ahorita del pánel de _layers_ pues podemos ver como se organizan los elementos dentro de los _frames_ pero tambien tenemos la seccion de _Page 1_  y tenemos los _Assets_ y dentro de los _Assets_(Ativos) ya nos aparecen los o el componente que cree.
+
+![assets-figma](/assets/assets-figma.png)
+
+![arrastrando-componente](/assets/arrastrando-componente.png)
+
+y ve que puedo arrastrar tantas instancias como yo necesite de mi componenete
+
+¿Qué ventajas me dá tenerlo como componente? 
+
+es que una vez que yo arrastro y las copias de mi componente original(instancias) 
+
+![componente-original](/assets/componente-original.png) 
+
+ve que su iconito del componente original es el que está formado por 4 rombitos y las copias es un rombo vacio
+
+Si yo necesito hacer un cambio en las copias lo puedo hacer sin que el componenete original sea afectado
+
+> Yo puedo cambiar ciertas propiedades de mi componente copia.
+
+¿Qué pasa si yo necesito hacer un cambio en el componente original y que ese cambio lo tomen por defecto toda sus copias?
+
+![subtitle](/assets/subtitle.png)
+
+pues lo hago directamente en el componente original, y como es un cambio que estoy haciendo al componente original vean que eso repercuté en las demás copias , entonces esa es la ventaja de trabajar con los componentes
+
+imagina que tienes muchisimas páginas y en una de ellas usas un componente, pero no sabes donde se encuentra el componenete original pues pulsa el boton que dice _go to main Component_
+
+![go-to-main-component](/assets/go-to-main-component.png)
+
+y me redirige al componente original.
+
+Imagina que tu ya no quieres que esa copia se vaya agregando cambios desde el componente original(principal)
+
+![detache-instance](/assets/detach-Instance.png)
+
+entonces selecionamos esta opcion, y ve que ya no está de color moradito, por que ya no guarda ninguna relación con ese componente 'original' 
+
+y cualquier cambio que hagas al componente 'original' ya no aplica al que le quitamos esa vinculación que tenia, esa es una manera de desvincular un componente.
+
+tambien te da la opcion de `reset all changes` resetea los valores de las instancias.
+
+> ojo, no lo puedes volver atras con `Ctrl + Z` ya no hay vuelta atras
+
+tambien tenemos la opcion de `push changes to main component`
+
+![push-changes-to-main-components](/assets/push-changes-to-main-component.png)
+
+Imagia que estas trabajando con una instancia, se dieron cuenta que no era el componente principal u 'original' y dices -- ho noo, todo los cambios que hice sobre esta instancia quiero que se apliquen al componente padre(original)--
+
+Entonces al precionar la opcion que dice : `push changes to main component` hace que los cambios que hayan hecho en esa instancia se van a aplicar al componente principal.
+
+> No olvides seleccionar toda la instancia antes de darle a esta opcion o no te aparecerá. 
+
+> En resumen: Un componente es un pedacito de IU, que al ser componente lo podemos reutilizar tantas veces como necesitemos.
+
+Entonces ya cuando tu empieces a trabajar tus prototipos en Figma y empieces a trabajar en diferentes proyectos, te vas a dar cuenta que un boton de hamburguesa una cabecera mobil, un boton de cerrar un boton de enviar un formulario pues será muy similar entre un proyecto u otro entonces la ventaja que te da los componentes es que tu puedes ir creando tus _kits_ de componentes de Iu y cada que empieces un proyecto ya no lo empieces de 0 simplemente empiesas a arrastrar tus componentes. Esa es la ventaja de utilizar los componentes de Figma
+
 
 
 
