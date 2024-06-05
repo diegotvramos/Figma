@@ -613,12 +613,133 @@ Entonces al precionar la opcion que dice : `push changes to main component` hace
 
 > En resumen: Un componente es un pedacito de IU, que al ser componente lo podemos reutilizar tantas veces como necesitemos.
 
-Entonces ya cuando tu empieces a trabajar tus prototipos en Figma y empieces a trabajar en diferentes proyectos, te vas a dar cuenta que un boton de hamburguesa una cabecera mobil, un boton de cerrar un boton de enviar un formulario pues será muy similar entre un proyecto u otro entonces la ventaja que te da los componentes es que tu puedes ir creando tus _kits_ de componentes de Iu y cada que empieces un proyecto ya no lo empieces de 0 simplemente empiesas a arrastrar tus componentes. Esa es la ventaja de utilizar los componentes de Figma
+Entonces ya cuando tu empieces a trabajar tus prototipos en Figma y empieces a trabajar en diferentes proyectos, te vas a dar cuenta que un boton de hamburguesa una cabecera mobil, un boton de cerrar un boton de enviar un formulario pues será muy similar entre un proyecto u otro entonces la ventaja que te da los componentes es que tu puedes ir creando tus _kits_ de componentes de Iu y cada que empieces un proyecto ya no lo empieces de 0 simplemente empiesas a arrastrar tus componentes. Esa es la ventaja de utilizar los componentes de Figma.
+
+## Máscaras y Operaciones Boleanas.
+
+**MASK**
+
+Aprenderás a hacer máscaras y uniones u operaciones Boleans
+
+![mask](/assets/mask-figma.png)
 
 
+El efecto de mascara, de hecho en cualquier software de diseño: Photoshop, Ilustrator, Animate puedes crear máscaras, y generalmente usas una figura o forma y sobre ella pones un fondo.
+
+A veces no tenemos el resultado por el simple orden en Figma.
+
+Ej quiero enmascarar la imagen conla figura de estrella.
+
+![orden-mask-1](/assets/orden-mask-1.png)
+
+pero está mal ordenada.
+
+![orden-mask-2](/assets/orden-mask-2.png)
+
+este es el orden que debe tener 
+
+y al precionar la opcion de Mask tenemos este resultado: 
+
+![orden-mask-3](/assets/orden-mask-3.png)
+
+Ve que la mascara es un grupo, nos dice que esta estrella está enmascarando a la imagen.
+
+Entonces ya lo puedo manejar como un elemento
+
+Las operaciones Bolean son estas: 
+
+![mask](/assets/mask-figma.png)
+
+* la union
+* sustraccion
+* interseccion.
+* exclucion
+
+Si tu traes buena técnica para el diseño vectorial, seguro ya lo conoces.
+
+mediante la interseccion de una figura con otra nos permite obtener cierta parte de esos elementos en cuestion.
+
+para ejemplificarte, voy a dibujar 2 circulos. y voy a precionar la opcion de '`union selection`'
+
+el resultado es este:
+
+![union-selection](/assets/union-selection.png)
+
+> en la capa de _Layers_ si yo en algun momento desaser esa union lo puedo hacer.
+
+Todas estas operaciones Booleanas así como la mascara son un conjunto especial de grupos
 
 
+para ejemplificarte, voy a dibujar 2 circulos. y voy a precionar la opcion de '`subtrat selection`'
 
+![subtract](/assets/subtract.png)
+
+para ejemplificarte, voy a dibujar 2 circulos. y voy a precionar la opcion de '`intersect selection`'
+
+![intersect](/assets/intersect.png)
+
+para ejemplificarte, voy a dibujar 2 circulos. y voy a precionar la opcion de '`exclude selection`'
+
+![exclude](/assets/exclude.png)
+
+para ejemplificarte, voy a dibujar 2 circulos. y voy a precionar la opcion de '`flatten selection`' ya no es un grupo ya es un todo
+
+![flatten](/assets/flatten.png)
+
+## Efectos, Modos de Fusión y Exportación 
+
+> Figma es una herramienta para hacer diseño de interfaz de usuario.
+
+Figma sigue siendo una herramienta de diseño vectorial.
+
+Sobre todo para las personas que no seamos tan asiduas hacia un perfil de diseño si tu eres más programador, Figma te va permitir hacer diseño sin la necesidad de tener una _suite_ mas compleja como podria ser la de Adobe
+
+![effects](/assets/effects.png)
+
+ve que aparte de la opcion de **_Stroke_** tenemos otras dos opciones: **_Effects_** && **_Export_** 
+
+Si has trabajado con herramientas de diseño como photoshop, ilustrator, firewall hay unos efectos que trabajan sobre las capas.
+
+en la opcion de _`layer`_ podemos encontrar muchos efectos:
+
+![layers](/assets/layers.png)
+
+manejo de capas y efectos entre las capas.
+
+Cuando tengo que diseñar toda la identidad gráfica de mi sitio personal. Utilizo Figma
+
+**EXPORT**
+
+Figma te permite exportar en PNG JPG SVG y PDF y te permite exportarlo en diferentes escalas
+
+![export-figma](/assets/export-figma.png)
+
+hay muchos que preguntan ¿Figma optimiza imágenes? es decir si tu arrastras una imagen a la interfaz de figma no es que figma la comprima y mejore la calidad y pese menos en la web tal cual pese tu imagen la va tomar figma y de igual manera, a la hora que exporta pues dependiendo de lo que estes exportando es lo que va pesar tu prototipo
+
+Cuando tú seleccionas varios elementos  lo que te hace es un ZIP(varios elementos) no te permite previsualizar pero si exportas un _Frame_ lo exporta como si fuera un elemento. osea ya te permite previsualizar
+
+> Ojo, No exporta guias, reglas, GRIDS, solo exporta la parte visual
+
+
+SUGERENCIA:
+
+Si vas a utilizar en Figma como una herramienta de diseño eje: para crear una identidad gráfica.
+
+lo que te suguiero es que CADA ELEMENTO ESTÉ EN UN FRAME.
+
+Puedes ponerte a trabajar en Figma en un modo más que en crear interfaces visuales que te sirva como un software para crear diseño para las _webs_ 
+
+> Recuerda que los _frames_ tiene tamaños predefinidos para las redes sociales como los post de Twiter,  la cabeceras, Facebook, Instagram.
+
+Figma no solo te va servir como herramienta para hacer prototipos interactivos sino tambien como herramienta de diseño para la web "PARA LA WEB"
+
+Si tu necesitas un diseño que se va a imprimir, recuerda que para imprecion necesitamos software que soporte CMYK (sistema de colores) que necesitamos para asegurarnos que el mismo color que aplicamos en nuestro software  de diseños se va imprimir en la impresora o imprenta a donde vaya a dar nuestro diseño: PHOTOSHOP, software indesign. ETC.
+
+Si el diseño que estas haciendo es destinado para infografias en las redes sociales, MINIATURAS, 
+
+EL OBJETIVO DE FIGMA ES HACER DISEÑO DE INTERFACES DE USUARIO Y SIMULAR LAS INTERACCIONES.
+
+## 
 
 
 
