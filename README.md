@@ -739,10 +739,93 @@ Si el diseño que estas haciendo es destinado para infografias en las redes soci
 
 EL OBJETIVO DE FIGMA ES HACER DISEÑO DE INTERFACES DE USUARIO Y SIMULAR LAS INTERACCIONES.
 
-## 
+¿Que pasa si nosotros tenemos la necesidad de mandarle un pantallazo al usuario o a mi colega?
+
+![slice](/assets/slice.png)
+
+ve que en las herramientas tenemos la opcion de `slice`(cuchillo) tambien lo podemos selecionar con el atajo `S` 
+
+![utilizando-slice](/assets/slice.png)
+
+selecionando el area que queremos podemos exportarlo en el formato que querramos: jpg, png, pdf y svg.
+
+> _Slice_ nos permite exportar a manera de captura de pantalla ciertas areas que nosotros necesitemos.
+
+y ve que el slice sigue en las capas de _Layers_ .
+
+pude hacer _Slices_ de varios _frames_ 
+
+## Estilos Locales
+
+para la gente que sabe de código, le va caer como anillo al dedo.
+
+por que es la manera en que Figma nos permite hacer nuestras guias de estilo ¿Qué es una guia de estilo? los componentes, tipo de boton la cabecera, los colores, los tamaños de texto, entonces Figma nos va permitir crear estilos locales y poder publicar y exportar esos estilos locales a `Time librarys` o diseños de sitema.
+
+Los estilos en Figma es una manera de poder reutilizar todos esos estilos que vamos a plicando tanto a colore, a bordes incluso a efectos.
+
+> Para seleccionar varios componenetes en Figma utilizamos la tecla `SHIFT`
 
 
+las sombras, efectos, sombras tipos de letra y más los podemos encapsular en 'Estilos' y estilos en Figma los podemos reutilizar. 
 
+Recuerda darle nombres adecuados a sus estilos por que conforme sus estilos vayan creciendo.
+
+y si tienen nombres inconsistentes (nada que ver / sin sentido) eje: `Fondo-rojo-puro` 
+
+_Figma tiene su propio canal de Youtube_
+
+Creando el estilo local de un color. si ves ahi dice que pongas el nombre de tu color.
+
+![style-local-color](/assets/poniendo-nombre-style-local-color.png)
+
+creamos un estilo local.
+
+Usamos el estilo local creado por nosotros. Estos colores los podemos heredar en cualquier parte de nuestro proyecto
+
+![style-local-red](/assets/local_style-red.png)
+
+Cuando yo hago cambio en un estílo, en automático se vé reflejado en todo los elementos que tengan ese estilo, así como los componentes me permitian replicar elementos visuales, los estilos me permiten replicar atributos de presentación con colores, textos, etc.
+
+> Para los programadores es como si estubieramos trabajando estilos en cascada
+
+> `Detach Style` sirve para desvincular el estilo
+
+![desvinculando-estilor](/assets/desvinculacion-estilo.png)
+
+Tambien podemos editarl el Estilo.
+
+> Nota: no me conviente desvincular los estilos en proyectos grandes, ya que si por alguna razon el cliente pide otra tonalidad de color de su página los elementos que están desvinculados del estilo principal, tendran que ser cambiados de manera manual.
+
+
+Sugerencia: `Raleway-h1, Raleway-h2, Raleway-h3` figma recomienda poner los nombres en este formato => `Raleway/h1, Raleway/h2, Raleway/h3`
+
+si tu trabajas solo, incluso si pusieras nombres inconsistentes no habria problema, el problema va venir cuando comienzes a trabajar en equipo.
+
+debe de haber un lider que determine la nomenclatura que vamos a trabajar, de tal manera que todos los estilos que cada integrante de ese equipo desarrolle pues tiene que ir con esa normativa
+
+
+Y así tu pondrias toda la parte textual de tu interfaz acomodarla y al final aplicar los estilos correspondientes, ahora todos estos efectos de estilos aplican para: los rellenos, el texto, y para los efectos.
+
+Acostumbrense a poner nombres en ingles. `Border/black/thick`
+
+
+cuando no selecciono nada mira que me muestra en el lado derecho los estilos locales.
+
+
+![local-styles](/assets/local-styles-figma.png)
+
+
+¿Y por que se llaman 'Local-Styles'?
+
+por que solo están en este archivo Figma. 
+
+algo que noté es que el grosor de los bordes no se edita en los estilos, asi que lo tienes que hacer manualmente.
+
+> PRIMERO AGREGAMOS UN STROKE, O UN EFFECT, TEXT.  CON EL ICONITO DE : `+`
+
+DESPUES LO TRANSFORMAMOS EN UN ESTILO LOCAL. CON EL SIMBOLO de los 4 puntitos.
+
+no importa Ñ
 
 
 
