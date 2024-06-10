@@ -821,11 +821,24 @@ por que solo están en este archivo Figma.
 
 algo que noté es que el grosor de los bordes no se edita en los estilos, asi que lo tienes que hacer manualmente.
 
-> PRIMERO AGREGAMOS UN STROKE, O UN EFFECT, TEXT.  CON EL ICONITO DE : `+`
+> PRIMERO AGREGAMOS UN _FIL_, _STROKE_, O UN _EFFECT_, _TEXT_.  CON EL ICONITO DE : `+`
 
 DESPUES LO TRANSFORMAMOS EN UN ESTILO LOCAL. CON EL SIMBOLO de los 4 puntitos.
 
-no importa Ñ
+no importa que ustedes eliminen el elemento en el que hayan creado el estilo, seleccionan el _Frame_ y ahí van a aparecer sus estilos locales.
+
+## Sistemas de Diseño (Team Library)
+
+Ya hicimos los Estilos locales, ¿Pero como lo volvemos una libreria?
+
+![libraries](/assets/libraries.png)
+
+al costado de la capa de los _Layers_ tenemos una categoria llamada _Assets_ (donde se guardan los componentes) y tenemos un iconito que se llama _libraries_
+
+Creamos un Nuevo proyecto. Haciendo click en el botonÑ: `+ design file`
+
+![create-new-proyect](/assets/create-new-proyect.png)
+
 
 
 
