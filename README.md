@@ -931,6 +931,8 @@ las opciones que tiene para compartir:
 
 podemos observar como la otra persona mueve el cursor en nuestro proyecto o documento. pero esa persona no tiene las opciones de edicion como la tenemos nosotros por que fuimos los creadores.
 
+Es similar a google docs donde interactuan varias personas.
+
 ¿Que pasa si quiero que una pesona en específico sea un editor de este archivo? 
 
 ponen el correo electronico de esa persona y depues pues le dan la opcion de `can edit`
@@ -943,8 +945,36 @@ Antes de invitar colaboradores, Figma nos obliga a mover el _file_(archivo) a un
 
 > recuerda que en la version gratuita nos permite hasta 3 proyectos unicamente.
 
+movemos el proyecto
 
- min 8 
+![moviendo-draft-proyect](/assets/moviendo-draft-proyect.png)
+
+
+invitamos al colaborador a travez de su correo electrónico. : `diegotvramos@gmail.com`
+
+![invitando-colaborador](/assets/invitando-colaborador.png)
+
+despues de que enviamos la invitación el otro colaborador en su bandeja de notificaciones le llegará dicha invitación, de esta manera
+
+![aceptando-invitación](/assets/aceptando-invitacion.png)
+
+la invitación al colaborador tambien le llega por medio de correo electrónico.
+
+> usa `Zoom to fit` para poder ver todo el proyecto.
+
+En resumen varios colaboradores pueden estar trabajando en el mismo prototipo en tiempo real.
+
+yo no tengo que esperar a que alguien haga cambio en el archivo, subirlo luego yo descargar ese archivo, por que está en la nube.
+
+> los comentarios tienen que ser alusivos a los cambios
+
+![agregando-comentarios](/assets/agregando-comentarios.png)
+
+tambien puedes ver todo los comentarios apretando la tecla `C` 
+
+no es necesario estar comunicandose por Wassapp.
+
+##
 
 
 
