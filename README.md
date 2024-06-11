@@ -837,7 +837,116 @@ al costado de la capa de los _Layers_ tenemos una categoria llamada _Assets_ (do
 
 Creamos un Nuevo proyecto. Haciendo click en el botonÑ: `+ design file`
 
-![create-new-proyect](/assets/create-new-proyect.png)
+![create-new-proyect](/assets/create-new-proyect.png).
+
+> Hay una gran diferencia entre _Plugins_ y Librerias
+
+Las librerias son estilos PUBLICOS. osea los puedo usar en otros proyectos de mi Figma.
+
+Design System. Figma lo quitó al crear una nueva cuenta. 
+
+> Me parece que es un plugin y ahora hay que buscarlo en el otro icono que te muestro a continuación.
+
+![plugins-figma](/assets/plugins-figma.png)
+
+en el buscador podemos buscar muchos plugins por ejemplo:
+
+* Generate Design System Quickly
+* Design System hub
+* > colors: https://colorsinspo.com/gradients/
+
+una de las caracteristicas de una libreria es que si lo modificamos nos da la opción de publicarlas similar a los comandos rutinarios de Git
+
+no puedees usar `team-libraries` en equipo de trabajo, por que lo volvieron de paga.
+
+En proyectos pequeños los estilos podrian quedar en un _frame_ dentro del mismo archivo local y pues ahi utilizarlos.
+
+Si va ser una pequeña landig page que el proyecto no va escalar pues ahi lo puedes dejar en tu mismo archivo local.
+
+Esta técnica de crear 'sistemas de diseño'`design Systems` sobre todo es cuando ya estas trabajando en una empresa y tienen grandes proyectos donde donde el equipo de Experiencia de Usuario tiene muchos integrantes y tienen que manejar una misma identidad gráfica, pues tienes que mantener una unidad de diseño independientemente de que tengas diferentes flujos, diferentes proyectos dentro del gran proyecto entonces ahi es cuando te comviene publicar tus sistemas como `design Systems` y librerias
+
+Puedes agregar los componentes de Iu(Interface User) que puedas reutilizar: cabezera mobil, una ventana modal, un boton primario un boton secundario, desde un pricipio es importante que tú vayas teniendo un orden a la hora de escribir la nomenclarura de tus diseño de sistemas.
+
+¿Cómo puedo hacer yo para compartir los estilos que tengo en mi archivo 'primeros pasos' como si fuera una libreria?
+
+![draft-first-steps](/assets/draft-first-steps.png)
+
+
+> Recomendacion; toda tu parte de estilos lo manejes externo. (otro proyecto o _Draft_)
+
+de cualquier manera desde cualquier archivo de trabajo puedes exportar los proyectos.
+
+vamos a la parte de  'assets', pinchamos en el icono del Libro y despues publicar.
+
+![publicando-libreria](/assets/publicando-libreria.png)
+
+
+Pero ya no se puede publicar por que se volvió de paga 😿😿😿
+
+ejemplo para poner comentario: "Publicando estilos locales del archivo Primeros Pasos en Figma"
+
+> Importante; todos estos comentarios tienene que tener una coherencia
+
+El poner comentarios alusivos a lo que hace así como la nomenclatura a cada uno de los estilos que fuimos creando o de los nombres de nuestros componentes, va de la mano.
+
+pudes crear un archivo para definir los colores en los posters.
+
+![colors-posters](/assets/local-styles-posters-youtube.png)
+
+![colores-para-estilo-local](/assets/colores-para-estilo-local.png)
+
+no necesariamente tu diseño va terminar prototipado. el color va ser alusivo a la identidad gráfica de la tecnologia, lenguaje, framework o herramienta del que se trate el curso y no estar recordando para ver que color tenia.
+
+## Colaborando (Permisos y comentarios)
+
+puedes guardar tu archivo de figma en tu computadora.
+
+![save-local-copy](/assets/save-local-copy.png)
+
+pero no es necesario
+
+¿Como puedo compartir con otra persona un archivo o documento? 
+
+mira que hay un boton llamado `Share`
+
+![share-file](/assets/share-file.png)
+
+tenemos estas opcines para compartir el archivo o documento
+
+![share-options](/assets/share-options.png)
+
+ve que  nos dice: que para invitar a personas a editar: 'mueva este borrador a sus proyectos'
+
+las opciones que tiene para compartir: 
+
+* `Copy link` sirve para copiar el link de tu proyecto y que otras personas lo puedan ver (tengan o nó cuenta en Figma)
+
+* `Copy Dev Mode Link` copiar enlace del modo desarrollador.
+
+* `Publish to Community` publicar en la comunidad.
+
+* `Get embed code` obtener codigo para enbeber (para ponerlo como iframe en tu pagina web. HTML) 
+
+![visualizando-invitados](/assets/visualizando-invitados.png)
+
+podemos observar como la otra persona mueve el cursor en nuestro proyecto o documento. pero esa persona no tiene las opciones de edicion como la tenemos nosotros por que fuimos los creadores.
+
+¿Que pasa si quiero que una pesona en específico sea un editor de este archivo? 
+
+ponen el correo electronico de esa persona y depues pues le dan la opcion de `can edit`
+
+y le mandan la invitación.
+
+![para-invitar-colaboradores](/assets/para-invitar-colaboradores.png) 
+
+Antes de invitar colaboradores, Figma nos obliga a mover el _file_(archivo) a un _proyect_proyecto
+
+> recuerda que en la version gratuita nos permite hasta 3 proyectos unicamente.
+
+
+ min 8 
+
+
 
 
 
