@@ -974,7 +974,48 @@ tambien puedes ver todo los comentarios apretando la tecla `C`
 
 no es necesario estar comunicandose por Wassapp.
 
-##
+![viendo-comentarios](/assets/viendo-comentarios.png)
+
+## Comunidad
+
+No es más que una pestaña que te permite explorar entre archivos y documentos que la misma comunidad que usa Figma comparte y publica de manera mas o menos gratuita, si tú has trabajado con wordpress es algo muy similar a los _plugins_ y los  _teme_ de Wordpress tiene su parte gratuita y su parte de paga.
+
+![community](/assets/community.png)
+
+imagina que vas a hacer la interfaz visual para una plicación nativa en android.
+
+Sí a trabajar en android necesitas regirte por las reglas de _material design_ que es el lenguaje visual de Google 
+
+ejeplo:
+
+> `https://www.figma.com/community/file/1166336931507726843/material-design-ui-kit-components-library-nat-ks?searchSessionId=lxfea71u-15i55rwqrn1`
+
+Guardando proyectos de comunidad
+
+![saved-community-proyects](/assets/saved-community-proyects.png)
+
+Creo que al momento de precionar el boton: `Open in Figma` se guarda automáticamente en mis _Drafts_(boradores)
+
+Este proyecto en particular tiene una versión de paga y una pequeña versión gratuita.
+
+podemos encontrar complementos de manera gratuita o de paga.
+
+¿Que pasa si tu quieres publicar algo en la cumunidad?
+
+en la sección de comunidad hay un boton en la parte superior derecha llamada: `_Publish_`, pulsaló y te saldra el siguiente modal:
+
+![publish-in-figma](/assets/publish-in-Figma.png)
+
+
+para modificar el nombre de la url publica de tu perfil hacemos lo siguiente, vams a la opcion _settings_
+
+![settings](/assets/perfil-figma.png)
+
+click donde dice `change handle`
+
+![change-handle](/assets/change-handle.png)
+
+
 
 
 
