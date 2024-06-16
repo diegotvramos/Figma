@@ -1015,8 +1015,83 @@ click donde dice `change handle`
 
 ![change-handle](/assets/change-handle.png)
 
+## Plugins
+
+Es un pequeño fragmento de código que le agregamos a nuestro software y que nos va dar una funcionalidad en particular.
+
+Ventajas: 
+
+* nos permite trabajar cierta funcionalidad de una manera muy amigable
+
+Desventaja:
+
+* Conforme nosotros vayamos agregando Plugins a nuestro sitio, interfaz o editor de código puede ser que requiera más recursos de la PC para trabajar y hasta cierto punto se vuelva lenta la experiencia
+
+> No abuses de instalar muchos Plugins
 
 
+para acceder a la perte de plugins:
+
+* click en el icono del globo terraquio llamado _Community_
+
+* despues click en _libraries_
+
+* click en la parte de _Plugins_
+
+* busca por ejemplo: Design System hub
+
+![plugins](/assets/plugins.png)
+
+Por ejemplo Unsplash es un sitio web para descargar imágenes sin derechos de autor.
+
+podria buscar imagenes que quiero, los descargo, y despues lo subo a Figma.
+
+O podria instalar el plugin de Unsplash y hacerlo todo desde Figma.
+
+¿Como instalamos un _plugin_ en Figma?
+
+![plugin-run](/assets/plugin-run.png)
+
+* vamos al icono que dice _resources_
+
+* click en la seccion de _plugins_
+
+* en la caja de busquedas escribimos 'Unsplash'
+
+
+
+![runing-plugin](/assets/runing-plugin.png)
+
+* click en '_run unsplash_'
+
+> Los Plugins van a funcionar directamente en nuestros archivos o _drafts_
+
+
+Tambien existe un atajo para los plugins: 
+
+![atajo-plugins](/assets/atajo-plugin.png)
+
+para generar texto puedes usar el plugin : `Lorem Ipsum`
+
+para hacer diseño con olas u olitas puedes usar el plugin: `Get Waves`
+
+para convertir tu diseño html a figma. `Html to Figma`
+
+> recuerda que los plugins pueden ser gratuitos y de paga.
+
+para convertir tu diseño figma a código html: `Figma to html`
+
+![figma-to-html](/assets/plugin-figma-to-html.png)
+
+resultado de convertir Figma a Html
+
+![convertida](/assets/pagina-convertida.png)
+
+> Traten de ser recatados en la cantidad de plugins.
+
+los plugins se casan con la cuenta que estas trabajando. 
+
+cada vez vemos caracteristicas que hacen muy potente a Figma frente a otras herramientas de mercado en el campo de diseño de interfaces de usuario
 
 
 
