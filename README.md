@@ -1093,6 +1093,56 @@ los plugins se casan con la cuenta que estas trabajando.
 
 cada vez vemos caracteristicas que hacen muy potente a Figma frente a otras herramientas de mercado en el campo de diseño de interfaces de usuario
 
+## Inspeción de Código e Historial de Versiones.
+
+Cuando terminamos todo el prototipado, interaccion o diseño, es importante que el programador con el que vayamos a trabajar sea uno de los colaboradores y tenga acceso a este archivo para que empiece a ver tamaños, proporciones y todo eso lo va convertir a código Html y Css y las funcionalidades a código JavaScript 
+
+Como Figma nos permite hacer interfaces para desarrollo web, aplicaciones para android o ios (sistemas nativos más importantes).
+
+> el panel de **Inspect**, que generaba código css, ios, android, ya no es gratuito.
+
+Todo lo que vamos a ver en el _Inspect_(inspector de elementos) es código que tiene que ver con el posicionamiento.
+
+todo el código que genera es una yuda de primera mano para el programedor en la parte del **posicionamiento**, pero no es toda la solución 
+
+
+**_historial de versiones_**
+
+Figma maneja solo un origen de la verdad, al tener todo en la nuve, pues solo tenemos un archivo, independientemete de que lo puedas guardar así.
+
+![save-copy-local2](/assets/save-local-copy2.png)
+
+pero no es necesario
+
+¿Cómo maneja Figma el historial?
+
+> Recuerda; Figma hace auto-guardados, cada cambio que hacemos en nuestro documento, ahi va generando actualizaciones de como se encontraba el archivo en ese momento
+
+cada que hacemos cambios, al cerrar el navegador se hace auto-guardados
+
+![save-to-version-history](/assets/save-to-version-history.png)
+
+para ver el historial sol hacemos click en: `show version history`
+
+![show-version-history](/assets/show-version-history.png)
+
+esto evita que estes teniendo varias copias de su diseño, por que esto del historial de versiones es como viajar en el tiempo es similar a hacer un checkout a un commit viejo.
+
+![figma-plan](/assets/figma-plan.png)
+
+> muy importante, si estás en la capa gratuita solo tenemos 30 días de esta funcionalidad desde el momento en que creamos la cuenta
+
+> ten en cuenta que si tienes un proyecto que va demorar 3 meses entonces:
+
+> van a poder volver atras solo de 30 dias atras.   
+
+ya que saben que se van a vencer esos 30 días seria bueno tener una copia
+
+![duplicate-version](/assets/duplicate-version.png)
+
+en resumen el historial de versiones sive para estos casos comunes: cuendo los clientes hechan para atras los cambios, o cuando borraron por error un frame o lo que sea, por eso Figma es una herramienta colaborativa
+
+
 
 
 
