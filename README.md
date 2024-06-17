@@ -30,7 +30,7 @@ Te permite generar el código en formato: SVG, en formato CSS, IOS, ANDROID
 
 Figma te permite manejar un historial de vercion de cambios.
 
-tiene su propia comunidad donde puedes explorar archivos plugins guias de estilos íconos, botones, interfaces comunes en cuestion de diseño mobil de diseño para aplicaciones nativas, wireframes, ilustraciones que la misma comunidad va creando y tu tambien puedes empesar a compartir lo que hagas con los demas.
+tiene su propia comunidad donde puedes explorar archivos plugins guias de estilos íconos, botones, interfaces comunes en cuestion de diseño movil de diseño para aplicaciones nativas, wireframes, ilustraciones que la misma comunidad va creando y tu tambien puedes empesar a compartir lo que hagas con los demas.
 
 > Cada vez que al rededor del ecosistema de una tecnologia hay comunidad eso enriqueze mucho la herramienta, la tecnologia o el lenguague con el que estemos trabajando
 
@@ -215,7 +215,7 @@ Figma es una herramienta de diseño vectorial, toda las figuras geometricas que 
 
 asi como freehand(extinto), ilustrator, animate, flash
 
-los _Frames_  no solamente son esa area especifica en la que nosotros vamos a diseñar cierto tamaño de pantalla o de dispositivo mobil o de reloj inteligente
+los _Frames_  no solamente son esa area especifica en la que nosotros vamos a diseñar cierto tamaño de pantalla o de dispositivo movil o de reloj inteligente
 
 ![frame](/assets/frame.png)
 
@@ -423,7 +423,7 @@ mira que el tamaño de cada cuadrito representa 10px
 
 entonces yo voy a tomar como base de 16px para el tamaño de los cuadritos.
 
-imagína que esta targeta la quiero al tamaño de mi dispositivo mobil pero le quiero dar un padding (espaciado interno) de 16px a cada lado
+imagína que esta targeta la quiero al tamaño de mi dispositivo movil pero le quiero dar un padding (espaciado interno) de 16px a cada lado
 
 queda de esta manera.
 
@@ -613,7 +613,7 @@ Entonces al precionar la opcion que dice : `push changes to main component` hace
 
 > En resumen: Un componente es un pedacito de IU, que al ser componente lo podemos reutilizar tantas veces como necesitemos.
 
-Entonces ya cuando tu empieces a trabajar tus prototipos en Figma y empieces a trabajar en diferentes proyectos, te vas a dar cuenta que un boton de hamburguesa una cabecera mobil, un boton de cerrar un boton de enviar un formulario pues será muy similar entre un proyecto u otro entonces la ventaja que te da los componentes es que tu puedes ir creando tus _kits_ de componentes de Iu y cada que empieces un proyecto ya no lo empieces de 0 simplemente empiesas a arrastrar tus componentes. Esa es la ventaja de utilizar los componentes de Figma.
+Entonces ya cuando tu empieces a trabajar tus prototipos en Figma y empieces a trabajar en diferentes proyectos, te vas a dar cuenta que un boton de hamburguesa una cabecera movil, un boton de cerrar un boton de enviar un formulario pues será muy similar entre un proyecto u otro entonces la ventaja que te da los componentes es que tu puedes ir creando tus _kits_ de componentes de Iu y cada que empieces un proyecto ya no lo empieces de 0 simplemente empiesas a arrastrar tus componentes. Esa es la ventaja de utilizar los componentes de Figma.
 
 ## Máscaras y Operaciones Boleanas.
 
@@ -865,7 +865,7 @@ Si va ser una pequeña landig page que el proyecto no va escalar pues ahi lo pue
 
 Esta técnica de crear 'sistemas de diseño'`design Systems` sobre todo es cuando ya estas trabajando en una empresa y tienen grandes proyectos donde donde el equipo de Experiencia de Usuario tiene muchos integrantes y tienen que manejar una misma identidad gráfica, pues tienes que mantener una unidad de diseño independientemente de que tengas diferentes flujos, diferentes proyectos dentro del gran proyecto entonces ahi es cuando te comviene publicar tus sistemas como `design Systems` y librerias
 
-Puedes agregar los componentes de Iu(Interface User) que puedas reutilizar: cabezera mobil, una ventana modal, un boton primario un boton secundario, desde un pricipio es importante que tú vayas teniendo un orden a la hora de escribir la nomenclarura de tus diseño de sistemas.
+Puedes agregar los componentes de Iu(Interface User) que puedas reutilizar: cabezera movil, una ventana modal, un boton primario un boton secundario, desde un pricipio es importante que tú vayas teniendo un orden a la hora de escribir la nomenclarura de tus diseño de sistemas.
 
 ¿Cómo puedo hacer yo para compartir los estilos que tengo en mi archivo 'primeros pasos' como si fuera una libreria?
 
@@ -1140,11 +1140,128 @@ ya que saben que se van a vencer esos 30 días seria bueno tener una copia
 
 ![duplicate-version](/assets/duplicate-version.png)
 
-en resumen el historial de versiones sive para estos casos comunes: cuendo los clientes hechan para atras los cambios, o cuando borraron por error un frame o lo que sea, por eso Figma es una herramienta colaborativa
+en resumen el historial de versiones sive para estos casos comunes: cuando los clientes hechan para atras los cambios, o cuando borraron por error un frame o lo que sea, por eso Figma es una herramienta colaborativa
+
+
+## Prototipos.
+
+en un pasado haciamos los diseños con Photoshop, Core, Ilustrator, donde diseñabamos el Layout. pero herramientas como Figma, como Adobe XD ya nos permiten simular las iteracciones que ya el programador cuando esté desarrollando la app web o la app nativa o la app de escritorio va llevar a la práctica con esa programación, para eso sive los prototipos.
+
+> Cuando estés prototipando es muy importante que todo los frames del flujo que estás prototipando sean del mismo tamaño sino a la hora de visualizar ese prototipo no se va ver bien.
+
+Cuando estamos trabajando para dispositivos móviles (lo correcto es escribir móvil con v según la RAE) podemos usar la de _Iphone SE_ (320x568)
+
+> Importante; si tu quieres cuidar la responsividad de tu diseño el mínimo tamaño de pantalla por el cual tú debes preucuparte es justamente 320px, por que es el tamaño más pequeño de dispositivo movil, hablando de telefonos
+
+Sí estas diseñando la interfaz para un _wearable_ como un _SmartWatch_ los relojes inteligentes, ve que Figma nos ofrece 4 tamaños.
+
+![frame-smartwatch](/assets/frame-smartwatch.png)
+
+¿Cómo vamos a prototipar en Figma?
+
+tenemos un boton de _play_ al lado de el boton _share_ 
+
+![prototype-present](/assets/prototype-present.png)
+
+y este fue el resultado:    
+
+![presenting](/assets/presenting.png)
+
+vé que me trae la carcasa de dicho dispositivo
+
+¿Cómo puedo cambiar el tamaño de un frame?
+
+antes de todo seleciona el frame, despues en el panél de _design_(diseño) selecciona lo que marca la flecha roja y busca el nuevo tamaño
+
+![cambiando-tamaño-frame](/assets/cambiando-tamaño-frame.png)
+
+¿Como cambio la carcasa del dispostivo que me muestra al prototipar?
+
+![cambiando-carcaza-prototipo](/assets/cambiando-carcaza-prototipo.png)
+
+en el panel de `prototype` hacemos click en '_show prototype settings_'
+
+![paso-tres-carcaza](/assets/paso-tres-carcaza.png) 
+
+en toda esta gama de opciones puedes personalizar el tamaño de presentación
+
+![personalizando-tamaño-presentacion](/assets/personalizando-tamaño-presentacion.png)
+
+Pero tambien tienes la opcion del **NONE** y así te vas evitanto las carcasas a la hora de presentar.
+
+¿Cómo podemos hacer simulaciones de las interacciones?
+
+![more-prototype](/assets/more-prototype.png)
+
+vé que al seleccionar el panel de '_Prototype_' y al hacer click en cualquier componente nos aparece un simbolo del (+) que simboliza la **interactividad**
+
+si saco el elemento del frame pierde esa interactividad, entonces tienen que estar dentro de los frames
+
+![generando-interactividad](/assets/generando-interactividad.png)
+
+Eventos:
+
+![on-click-prototype](/assets/on-click-prototype.png)
+
+* ninguno
+* al hacer click
+* en arrastre
+* mientras flota
+* mientras presiona
+* tecla/Gamepad
+
+* Entrar con el ratón
+* Licencia de ratón
+* Ratón hacia abajo
+* Ratón hacia arriba
+
+* Después del retraso 
 
 
 
+![navigate-to-prototype](/assets/navigate-to-prototype.png)
+
+* ninguno
+* Cambiar a
+* Atras
+
+* Establecer variable 
+* Establecer modo variable
+* Condicional
+* Desplácesé hasta
+* Enlace abierto
+
+* Abrir superposición 
+* Intercambiar superposición
+* Cerrar superposición
 
 
+Animaciones 
 
+![animaciones-prototype](/assets/animaciones-instant-prototype.png)
 
+* Instante(Instant)
+* Disolver(Dissolve)
+* Animación inteligente(Smart animate)
+
+* Mudarse(move in)
+* Mudarse(move out)
+* Empujar(Push)
+* En este lado(Slide in)
+* Deslice(Slide out)
+
+tambien nos permite la simulación de enlaces externos
+
+> si tú sacas figuras del frame hacia el lienzo infinito de Figma no tienen interacción 
+
+va ver veces en que nosotros vamos a tener la necesidad de que nuestra _figura_ esté afuera de un _frame_
+
+![manual](/assets/manual.png)
+
+> si quieres que esa figura tenga interactividad debes comvertirlo a componente y despues vamos a la seccion de `prototype` vé que ya tiene la opcion de interacción (+) 
+
+![control-interaccion](/assets/control-interaccion.png)
+
+ve que tambien los prototipos los pueden compartir mediante link
+
+y gracias a esto tu equipo de desarrollo ya sabe que interacciones, y por las propiedades que nos dá el panles de `prototypes` pues ellos ya saben a que velocidad, con que transición deben codificar css(transiciones y animaciones) 
