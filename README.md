@@ -1265,3 +1265,53 @@ va ver veces en que nosotros vamos a tener la necesidad de que nuestra _figura_ 
 ve que tambien los prototipos los pueden compartir mediante link
 
 y gracias a esto tu equipo de desarrollo ya sabe que interacciones, y por las propiedades que nos dá el panles de `prototypes` pues ellos ya saben a que velocidad, con que transición deben codificar css(transiciones y animaciones) 
+
+## Figma Mirror, Blog y canal de Youtube
+
+En las primeras seciones de Figma te enseñé a como descargar Figma:
+
+> `https://www.figma.com/es-la/downloads/`
+
+en esa misma página hay una seccion que te permite descargar una APP para android o Ios o Ipad 
+
+![figma-dowloads](/assets/figma-dowloads.png)
+
+¿pero para qué sirve?
+
+pues nos permite simular en nuestro dispositivo los prototipos que estemos trabajando. 
+
+una ves descargado la aplicación debemos hacer lo siguiente:
+
+* instalamos 'Figma – prototype mirror share' desde la play Store
+
+* iniciamos seción
+
+
+tiene un menú en la parte de abajo:
+
+🕓 recents 🔎 search 🔔 Activity 🔲 Mirror
+
+un borrador puede tener muchas páginas a lo que veo, no olvides selecionar la página que quieres darle _play_.
+
+> transmite en tiempo real el frame que estoy protoipando
+
+> recuerda que el frame se visualiza en el celular es el frame que seleccionas en el navegador. 😲😲😲
+
+nos permite probar la responsibidad en nuestros dispositivos móviles
+
+Si tu quieres seguir trabajando con esta exelente herramienta de prototipado Iu uX, la mejor fuente para seguir actualizandote pues es el origen, los creadores de Figma tienen su propio blog, está en ingles(idioma de los negocios, de la programación) entonces no tendria por que ser una limitante
+
+> `https://www.figma.com/blog/`
+
+> `https://www.youtube.com/@Figma/videos` acá hacen videos donde invitan a gente de empresas muy importantes y hacen un diseño.
+
+## 
+
+
+
+
+
+
+
+
+
