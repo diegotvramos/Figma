@@ -1305,7 +1305,137 @@ Si tu quieres seguir trabajando con esta exelente herramienta de prototipado Iu 
 
 > `https://www.youtube.com/@Figma/videos` acá hacen videos donde invitan a gente de empresas muy importantes y hacen un diseño.
 
+## Proyecto Final: Proceso Creativo UI - UX
+
+> `https://www.figma.com/design/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=0-1&t=nDhbgmRU0N9BR1Qc-1`
+
+Figma es una herrmienta de diseño de interfaz de usuario que tiene que ver mucho de como es la experiencia de usuario en los proyectos que nosotros vayamos a prototipar.
+
+¿Cual es el propósito ve una interfaz, sea digital o fisica(nuestros moviles)?
+
+el objetivo de una interfaz es recuperar, decodificar, modificar y distribuir la información.
+
+Una interfaz va permitir el proceso de comunicación entre una persona(usuario), y la información que se esté tratando dar a conocer en dicha interfaz.
+
+> tenemos que ser muy claros del objetivo que van a tener en cuenta nuestra interfaz a la hora que los usuarios la vayan a usar
+
+Entonces una interfaz de usuario gráfica antes que se vea bonita:
+
+* tiene que ser funcional.
+* usable
+* tiene que permitir ese mensaje que nosotros pretendemos comunicar mediante esa interfaz 'lo más claro posible' a la hora que los usuarios finales la estén utilizando 
+
+por que puede ser que tu diseño tenga una interfaz increible con un diseño muy vanguardista, pero de nada sirve si las personas tienen dudas a la hora de interactuar, si no sirve para el propósito que fue creada.
+
+"no se dejen llevar por la cuestion del diseño" es como cuando a un programador dice voy a usar tal herramienta de programación, y este framework, cuando aveces desde la perspectiva del programador o diseñador, nos clavamos tanto en lo que es nuestro punto de especialidad y nos olvidamos de lo más importante dotas las interfaces digitales, un sitio web, una aplicación web, el objetivo principal es comunicar una idea, entregar una interracción ablando de una aplicación que consuma datos, entonces muchas veces nos preucupamos de detalles secundarios y dejamos a un lado lo más importante, que es ese proceso de comunicación entre el Usuario que utiliza nuestra interfaz, nuestro sitio, nuestra aplicación, y ese mensaje(narrativa).
+
+Primero quiero darte a conocer cinco pasos que considero dentro de un proceso de diseño de una interfaz gráfica.
+
+**proceso UI - UX**
+
+1. Sketch (anotaciones en papel o app)
+> Boceto General
+> LLuvia de Ideas
+
+2. Wireframes
+indicadores:
+> Figuras Geométricas
+> Textos Descriptivos
+
+3. Layout(en Figma)
+> Diseño gráfico Estático
+> Guías de estilo(tipografia colores logotipos, elementos de interfaz de usuario)
+
+4. Prototipo Funcional
+> simular las interacciones
+
+5. Programación
+> Código (Nativo, Escrito o Web)
+
+
+_no es que religiosamente tengamos que seguir estos 5 pasos, pueso sarlarme del paso 1 al paso 5 o del paso 3 a el paso 5_
+
+PROYECTO: one page scroll
+
+Versión Mobile
+Versión Tablet
+Versión Desktop
+
+!El objetivo principal de las interfaces de usuario es comunicar¡
+
+> `https://whydoweinterface.com/`
+
+> recomendacion de libro uml en 24 horas `https://www.nngroup.com/`
+
+## Proyecto Final: Atomic Design
+
+Yo trabajo con una metodologia de diseño de interfaces que se llama atomic design 
+
+`https://bradfrost.com/` 
+
+`https://bradfrost.com/blog/post/atomic-web-design/` (BLOG)
+
+Atomic Design es una propuesta que hace Brad Frost en donde él toma como referencia una metáfora hacia la tabla quimica de los elementos.
+
+Atomic design podria ser una perfecta metodologia para trabajar con Figma.
+
+la caracteristica de Figma de crear _sistemas de diseño(Team Library)_ y _componentes_ va perfectamente de la mano con la metodologia de Atomic design
+
+
+1. Atoms
+2. Molecules
+3. Organisms
+4. Templates
+5. Pages
+
+
+
+ATOMS
+
+![atoms](/assets/atoms.png)
+
+MOLECULES
+
+![molecules](/assets/molecules.png)
+
+ORGANISMS (una cabecera seria un exelente ejemplo)
+
+![organisms](/assets/organisms.png)
+
+TEMPLATES como los _wireframes_
+
+![templates](/assets/templates.png)
+
+PAGES vendria a ser el _layout_ propuesta visual  
+
+![pages](/assets/pages.png)
+
+lo mas rescatable de este blog es esta imágen
+
+![atomic-web-design](/assets/atomic-web-design.png)
+
+donde: atomos, moléculas y organismos van a ser los componentes que hagamos en Figma y 
+donde: Template y pages van aser los wiframes y los Layouts
+
+esto de los componentes tambien lo podemos llevar a código por qué a nivel de codigo CSS Y HTML podemos crear nuestros propios componentes
+
+algunas herramientas como Bootstrap, tailwind, materialcss cada uno de esos frameworks nos ofrece componentes como: menú, ventana modal, carusel, botones, barra de navegación, todos esos elementos de interfaz de usuario no son mas que _Componentes_ que con esa pieza de código nosotros representamos visualmente esa interfaz, y si ya estas desarrollando una aplicación que interactue con datos y por ejemplo estás utilizando algun _framework_ reactivo de JS como View, Angular, Sbel, REACK. Recuerda que estos proyectos tambien se programan orientando a componentes, creamos una sola vez el funcionamiento la IU. de un componente y lo vamos llamando en nuestro código tantas veces como lo necesitemos, entonces ve como _Atomic Design_ va de la mano de IU UX y el código.
+
+lo puedes implementar tanto en aplicaciones y sitios, por que estos 5 niveles se mantienen agnosticos de la heramienta que estés trabajando
+
+> `https://demo.patternlab.io/` esta pagina te guia y es del mismo autor de _Atomic design_ y te da una DEMO.
+
 ## 
+
+
+
+
+
+
+
+
+
+
 
 
 
