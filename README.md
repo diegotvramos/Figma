@@ -1425,7 +1425,23 @@ lo puedes implementar tanto en aplicaciones y sitios, por que estos 5 niveles se
 
 > `https://demo.patternlab.io/` esta pagina te guia y es del mismo autor de _Atomic design_ y te da una DEMO.
 
-## 
+## Proyecto Final: Sketch (Boceto)
+
+hay personas que trabajan herramientas digitales o de la vieja guardia agarraran lapiz y papel
+
+![sketch](/assets/sketch.png)
+
+* decidimos para que tamaños hacer (celular, tableta o pc)
+* ¿Que tipo de sitio va ser? ONE PAGE
+* el flujo estaria definido por el **mapa del sitio** (1️⃣Home 2️⃣Acerca 3️⃣Servicios 4️⃣Portafolio 5️⃣Testimonios 6️⃣Contacto)
+* IMPORTANTE definir las interacciones de como va ser la navegación(cabecera o barra de navegación)
+* si nuestra aplicacion o sitio para que responda en cualquier tamaño de dispositivo debemos pensar en la filosofia _Mobile-First_(se centra en el dispositivo más pequeño y de ahi va creciendo)
+* la disposicion de las acciones más importantes deben estar representadas por un icono en la parte de abajo(caso movil) para que nuestros pulgares tengan facil disposicion
+* Home-m(home-mobile) Home-d(home-desktop)
+* **estilos del sitio** (1️⃣tipografia 2️⃣Color principal(3) 3️⃣Escala de grises 4️⃣definir tamaño de los textos)
+
+> en este primer proceso no es para que la gente te entienda, mientras tu lo entiendas todo bien, sirve para aceptar las ideas más importantes y posteriormente trabajarlas 
+> este proceso es para que no se te olvide los detalles que estás pensando, puede tomar(2horas - un dia)
 
 
 
