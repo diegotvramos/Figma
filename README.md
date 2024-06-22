@@ -1443,7 +1443,64 @@ hay personas que trabajan herramientas digitales o de la vieja guardia agarraran
 > en este primer proceso no es para que la gente te entienda, mientras tu lo entiendas todo bien, sirve para aceptar las ideas más importantes y posteriormente trabajarlas 
 > este proceso es para que no se te olvide los detalles que estás pensando, puede tomar(2horas - un dia)
 
+## Proyecto Final: Wireframes
 
+debemos llevar el boceto general a _wireframes_ 
+
+la lluvia de ideas podrias hacerlas en elgun software por ejemplo de mapas mentales, o puedes pasar esa lluvia de ideas directamente a wireframes utilizando figma.
+
+![proceso-iu-ux](/assets/proceso-ui-ux.png)
+
+> el unico paso importante para desarrollar un producto digital va ser la programación 
+
+para poner el icono de la hamburguesa
+
+![icon-list](/assets/icon-list.png)
+
+> `https://icons.getbootstrap.com/icons/list/`
+
+Cuando comienzo un proyecto en Figma me gusta agregarle la GRID(cuadricula) a 16px
+
+![grid-16px](/assets/grid-16px.png)
+
+por que 16px?
+
+> recuerda, el tamaño base del texto la mayoria de los navegadores la mayoria lo trabaja a 16px
+
+es el tamaño base de fuente que los navegadores le dan al texto sin formateo previo
+
+los tamaños de texto en CSS se trabajan en EMs  1em = 16px
+
+Word usa puntos
+
+> `https://pxtoem.com.au/`
+
+> el tamaño tipográfico en web nos va definir sobre todo si utilizamos unidades de medida como EM, REMS para espaciados internos que seria la propiedad padding para espaciados externos como vendrian a ser la propiedad margin pues todos esos espacios son muy importantes por que generalmente se definen a partir de la base del tamaño de texto
+
+![px-to-em](/assets/px-to-em.png)
+
+> te sugiero empesar a trabajar en sus frames con una cuadricula de 16px    
+
+![icon-x](/assets/icon-x.png)
+
+tengo un problema, cuando uso un componente del tamaño movil y lo escalo a tamaño tableta, el icono(vector) de bootstrap(plugin) se deforma así:
+
+![icon-bootstrap](/assets/icono-bootstrap.png)
+
+
+si uso este componente en otro Frame no puedo mover el icono (por que ya es un componente definido)
+
+Solucion:
+
+la solución fue la **disposición(Layout)** Pues modifíque el componente principal(main) a automático el valor por defecto y lo centré; es como en flexbox.
+
+* 16px a los lados sea cual sea el dispositivo.
+* espaciado automático entre Logo y texto (**GAP**)
+* centrado entre ariba y abajo "solo los elementos dentro del componente"
+
+![layout-iconos](/assets/solucion-iconos.png)
+
+min 12
 
 
 
