@@ -1509,6 +1509,72 @@ tenemos la opcion de duplicar el proyecto de Jonmircha
 
 ![duplicando-proyecto](/assets/duplicando-proyecto-figma.png)
 
+> siempre busco que el tamaño minimo en el movil sea 320px 
+
+* IPhone SE => 320 x 568 (preucupate por que tu diseño quepa en este dispositivo)
+* iPad mini => 768 x 1024
+* Desktop iMac => 1280 x 720
+
+los nombres de los frames en los Wiframes tienen nombres semanticos y descriptivos. 
+
+> eje: MobileNavigation, MobileNavigationActive, MobileHome, MobileAcerca
+ojo la nomenclatura está en ingles
+
+
+> Cuando agrandas un elemento el texto sule dejar un espacio y ya no se centra.
+
+
+![agrandando-elemento](/assets/agrandando-elemento.png)
+
+la solución a esto es simplemente alineando el texo con este boton.
+
+![alineando-texto](/assets/alineando-texto2.png)
+
+es muy importante que al despues de escalar un elemento con el `Shift` debemos ver que la caja de texto no se deforme.
+
+En caso de que se deformara no olvides activar la opcion de `autowidth`
+
+![autowid](/assets/Autowid-text-box.png)
+
+> ``Auto layout = display: flex;``
+
+el _auto-layout_ me permite seguir manejando las mismas distancias entre los elementos. 
+
+imagina haver eliminado un elemento y luego reacomodar todo.
+
+> en los _Wireframes_ no les suguiero que creen componentes, por que finalmente estos wiframes es una referencia con que creen grupos `Ctrl + G` es más que suficiente.
+
+y despues lo escalas yo agarro el grupo y lo escalo con la tecla `shift`
+
+pero hay otro modo:
+
+![escala](/assets/herramienta-escala.png)
+
+> RECUERDA: ESCALA TODO, INCLUSO EL TAMAÑO DE TEXTO IMAGENES, "TODO"
+
+y lo acomodo.
+
+> PUEDES USAR MAS DE UNA _GRID_ EN UN _frame_
+
+para mantener la proporcion de los 16px simpre busco un tamaño de los frames que sean multiplos de 16px
+
+eje:
+
+568 / 16 = 35.5
+16 * 35 = 560   o 
+16 * 36 = 576
+
+**la importancia de usar correctamente los _Constraints_**
+
+> antes de hacer copia fijense que la alineacion de texto sea la correcta.
+
+1ra tecnica: hacer uno por uno los frames y crear los elementos.
+
+2da técnica: simplemente copiar un frame con sus elementos, dar un tamaño al frame y sus elementos se adaptarán automáticamente
+
+![constraints](/assets/constraints.png)
+
+"empiesa a ensuciarte la mano de prototipados y wireframes en Figma" 🤗♥
 
 
 
