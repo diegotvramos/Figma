@@ -1500,7 +1500,17 @@ la solución fue la **disposición(Layout)** Pues modifíque el componente princ
 
 ![layout-iconos](/assets/solucion-iconos.png)
 
-min 12
+
+para que te salga este iconito simplemente **AGRUPAS(ctrl + g)** y despues le agregas _Autolayout_
+
+![grupo-autolayout](/assets/grupo-autolayout.png)
+
+tenemos la opcion de duplicar el proyecto de Jonmircha
+
+![duplicando-proyecto](/assets/duplicando-proyecto-figma.png)
+
+
+
 
 
 
