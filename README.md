@@ -1576,6 +1576,50 @@ eje:
 
 "empiesa a ensuciarte la mano de prototipados y wireframes en Figma" 🤗♥
 
+## Proyecto Final: Guia de estilos
+
+puedes crear estilos locales:
+
+* estilo de colores
+* estilo de bordes
+* estilos de tamaños tipográficos
+* efectos de estilo com los _drop shadow, blurr_
+* estilos de grid
+
+te enseñé esos estilos locales poderlos exportar como una _team library_ para que estubieran disponibles para cualquier documento de Figma (ojo eso se volvio de paga) ya no se puede publicar gratuitamente. (como es un proyecto pequeño no hay necesidad de generar una _team library_ pública) simplemente definir los estilos locales
+
+Primero creamos una núeva página llamada: _styleguide_
+
+![creando-styleguide](/assets/creando-pagina-styleguide.png)
+
+cramos un frame y dentro de ella creamos los estilos de los colores en base a la identidad de tu proyecto, de los tamaños de texto
+
+Aquí tu tienes que preucuparte por definir el tamaño de un H1, H2, en html hay 6 tipos de encabezado del h1 al h6, los párrafos, las letras pequeñas, definimos cuantas tipografias vas a usar (recomendación: usa solo una o dos)
+
+tienes que ser bien especifico para dejarle visualmente claro al usuario para que va ser cada tipografia  
+
+_fill_ significa rellenar
+
+al poner nombre a un estilo debes hacerlo en el formato:
+
+> **border/green/3** por que figma va hacieno busqudas evita: **border-green-3**
+
+por que figma lo almacena en formato de carpetas
+
+Así cremos los estilos:
+
+![creando-estilo-local](/assets/creando-estilo-local.png)
+
+
+¿como elimino los estilos locales?
+
+![eliminando-stylelocal](/assets/eliminando-localstyle.png)
+
+para que me muestre todas las guias de estilo locales simplemente hacemos click en cualquiera parte del lienzo de figma.
+
+puedo crear estilos locales para las grids
+
+![creando-estilos-locales-grid](/assets/crando-estilos-locales-grid.png)
 
 
 
