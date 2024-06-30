@@ -1622,15 +1622,63 @@ puedo crear estilos locales para las grids
 ![creando-estilos-locales-grid](/assets/crando-estilos-locales-grid.png)
 
 
+Los estilos locales aplica para todas las páginas que esten dentro de un proyecto Borrador(drafts)
+
+¿Qué es el color Alpha?
+
+hace **transparente** todos los pixeles de una capa activa osea vuelve transparente los colores.
+
+Estas son las teclas de acceso rápido para mejorar tus textos, estructurarlos y acomodarlos de mejor manera: Negrita: ``CTRL B``. Itálica: ``CTRL I``. Subrayado (r): ``CTRL U``(underlined).
+
+"recuerda que estamos definiendo los estilo **LOCALES**"
+
+Cada tipografia mantiene sus estilos
+
+Raleway
+
+Estilos: Regular, Bold, Italic
+
+COLOR PRINCIPAL
+
+en tema de colores personalmente elijo un color principal, y despues lo acompaño con cun color secundario que seria el mismo color pero con una escala de opacidad (75%)
+
+![first-color](/assets/first-color.png)
+
+COLOR SECUNDARIO
+
+![second-color](/assets/second-color.png)
+
+COLOR TERCIARIO
+
+![third-color](/assets/third-color.png)
+
+ESCALA DE GRISES(plomos)
+
+![escala-de-grises](/assets/escala-de-grises.png)
+
+LINKS, TÍTULOS, COLOR DE LOS TEXTOS
+
+![link-color](/assets/link-color.png)
+
+siempre trato de tener un color sobre todo cuando vaya a utilizar ventanas modales y efectos donde tenga que ponerle un overlay ( capas superpuestas)
+
+como cuando abrimos una foto en Facebook la interfaz de Facebook queda en segundo plano con una capa de opacidad para poder apreciar la imagen que estamos abriendo, ese es un efecto de overlay  el BLANDO ESTA AL 50% DE OPACIDAD
+
+![overlay-color](/assets/overlay-color.png)
+
+BLANCO AL 50% de opacidad de transparencia
+NEGRO AL 50% de opacidad
+Drop shadow(sombra)
 
 
+![guias-de-estilos](/assets/guias-de-estilos.png)
+
+> los nombred deben ir a corde con algo que perfectamente los describa
+
+primero creo los elementos depues les doy nombre a los estilos locales
 
 
-
-
-
-
-
+## 
 
 
 
