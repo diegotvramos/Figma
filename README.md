@@ -1678,9 +1678,158 @@ Drop shadow(sombra)
 primero creo los elementos depues les doy nombre a los estilos locales
 
 
-## 
+## Componentes
 
 
+
+Para este curso en particular vamos a usar algunos plugins
+
+![resourse-plugins](/assets/resourse-plugins.png)
+
+* Lorem ipsum => para generar párrafos simulados
+* Unsplash => para traernos imágenes
+* https://www.pexels.com/es-es/ => imágenes gratuitas tambien hay en los plugins de Figma
+* Humaaans for Figma => iconos e imágenes vectoriales, te permite utilizar algunos vectores pensado en humanos(gente normal, delgada, gordita)
+* Boxicons => iconos 
+
+> Recuerda; entre más herramientas puedas utilizar pues va ser mas exacto que tu prototipo pase tal cual a la hora que construyan con código.
+
+no es necesario que tu crees frames.
+
+si tu de vas a la parte de la **community** icnono de globoterraquio
+
+![ui-kits](/assets/ui-kits.png)
+
+ve que en muchos de estos _ui-kits_ los componenetes ya están creados fuera de un _frame_ osea independientemente, cuando estes trabajando con tu prototipo o _Layout_ ya los puedes pasar a los frames donde tú vayas a trabajar.
+
+puedes duplicar estos _kits_ de la comunidad en tu figma simplemente precionando este boton:
+
+![button-open-in-figma](/assets/button-open-in-figma.png)
+
+este recurso se guarda en los _drafts_(borradores)
+
+tienes dos opciones al hacer componentes:
+
+* En un _frame_
+* independientemente
+
+bueno nosotros vamos a usar liensos o frames, pero solo en iconos en los demás vamos a hacerlos independientemente.
+
+los iconos los puedes extraer de cualquier plugin yo usaré icon botstrap.
+
+el nombre que le das a cada uno de los componentes debe ser coherente. una nomenclatura adecuada a los componentes/estilos
+
+* carousel/desktop
+* carousel/mobile
+* header/desktop/hover
+* header/desktop
+* header/mobile
+
+
+> no olvides utilizar el separador `/` 
+
+recuerda; la estructura de un componente no la puedes cambiar.
+
+si un elemento dentro de tu componente siempre va ser una imagen esa imagen la tienes que crear a componente
+que pasa si quiero intercambiar ese icono por otro.
+
+![swap-instance](/assets/swap-instance.png)
+
+_swap instance_ lo que hace es intercambiar ese icono por el que yo quiera, y ve que me autodetecta todo los iconos. que están en ese _frame_
+
+que pasa si quiero intercambiar ese icono por un icono que acabo de pegar de un plugin.
+
+![card-servise](/assets/card-service.png)
+
+recuerda que los vectores externos de figma generan su propio _frame_
+
+
+pues no te deja por que es un icono o un traso vectorial externo a Figma, pues no me aparece esa opcion de intercambiarlo
+
+![componente-copia](/assets/componente-copia.png)
+
+y como es una copia no me permite cortar y pegar el icono dentro de ese componente copia, si trato de forjarla, me saca de la instancia(coponente)
+
+si yo quisiera reemplazarla, corto el icono recien descargado, me voy al componente 'PADRE'
+
+> muy importante tener los pomponentes 'PADRE' en un frame independiente.
+
+Si dentro de la estructura de tu componente tu tienes pensado que ahi vaya un icono cada icono descargado independientemente de cualquier plugin debes envolverlo en un **componente** así:
+
+![iconos-componentes](/assets/iconos-componentes.png)
+
+
+**Lectura de los constrains**
+
+![lectura-constraints](/assets/lectura-constraints.png)
+
+permanece a la izquierda y con respecto a arriba
+
+![constraints-lectura](/assets/constraints-lectura.png)
+
+permanece a la izquierda y centrado respecto a la vertical
+
+
+a la hora de crear componentes lo hacemos en orden: 
+
+* Primero creamos los elementos del componente eje: logo, rectangulo, icono
+
+* Segundo los agrupamos `ctrl + g` o lo volvemos componente con el icono del rombito que se encuentra en la parte superior del lienzo.
+
+* Tercero empesamos a acomodar con estas opciones: 
+
+![alineaciones](/assets/alineaciones.png)
+
+* Cuarto especificamos los _constraints_(restricciones)
+
+![constraints-2](/assets/constraints-2.png)
+
+* Quinto si es más de dos elementos que hay que alinear como una lista agregamos un _AUTOLAYOUT_ 
+
+![autolayout](/assets/autolayout.png)
+
+ICONOS EN BOOTSTRAPICONS y BOXICONS
+
+code
+
+![icons-code-square](/assets/icon-code-square.png)
+
+aspect ratio
+
+![aspect-ratio](/assets/icon-aspect-ratio.png)
+
+boxicons load
+
+![boxicons-load](/assets/boxicons-load.png)
+
+icon search
+
+![icon-search](/assets/icon-search.png)
+
+icon hash
+
+![icon-hash](/assets/icon-hash.png)
+
+icon hdd rack
+
+![icon-hdd-rack](/assets/icon-hdd-rack.png)
+
+icon circle X fill
+
+![icon-circle-x-fill](/assets/icon-x-circle-fill.png)
+
+icon arrow circle
+
+![arrow-circle](/assets/arrow-right-circle.png)
+
+los iconos de la página `https://boxicons.com/` tiene el icono para los vehiculos
+
+
+
+
+min 24
+
+ 
 
 
 
