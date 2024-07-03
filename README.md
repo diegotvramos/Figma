@@ -1828,12 +1828,47 @@ Para que haya un espacio entre el borde final de la targeta, no olvides poner un
 
 ![vertical-padding](/assets/vertical-padding.png)
 
+para poder lograr esto : solo le agregamos un autolayout
+
+![auto-layout-cardporfolio](/assets/auto-layout-card-portfolio.png)
+
+![horizontal-layout](/assets/horizontal-layout.png)
+
+y depues quitamos el autolayout.
+
+si no te aparece los _constraints_ es por que aun no agrupaste los elementos.
 
 
-min 24
+el constrain está a la derecha, por que si la cabezera crese el menú de navegación se alinea respecto a la derecha y el logo se alinea desde la izquierda
+
+![header-desktop](/assets/header-desktop.png)
+
+ese mismo texto lo copio y lo pego para mi version desktop
+
+![menú-vertical](/assets/menú-vertical.png)
+
+el icono de la casita es un icono de _FontOwesome_ eso quiere desir que Figma lo va tratar como si fuera un texto. me permite la remplazabilidad
+
+Salvo que tengas muy en claro cada uno de los elementos que vayas a ocupar y ya tengas el contenido real que tu tienes que plasmar en cada sección de tu prototipado pues seguramente podras crearte esta pestaña de componentes, y crearlos uno a uno los componentes y posteriormente arrastrarlos a tu Layout(disposicion).
+
+La tecnica que yo utilicé, es empesar a hacer mi layout movil, lo primero que cree fue la barra de navegación movil, y lo puse en el frame que representaba el tamaño movil, el componente padre lo cortaba lo pasaba a mi página de componentes y se quedara ahi el componenete principal y depsues arrastraba una copia y la pasaba a mi _frame_ movil
+
+> "no te estreses por tener todo los componentes"
+
+Generalmente los componentes los vas a ir trabajando con forme vayas creando el _Layout_ de los diseños e interfaces de usuario
+
+IMPORTANTE; con forme tu vayas creando tus componentes es importate que los componentes padres para que tengas una mejor organizacion en tu diseño, todo los componentes padre ya una ves que lo hayas creado lo cortes.
+
+si tu no sabes donde está tu componente principal:
+
+![go-to-main-component](/assets/go-to-main-component-2.png)
+
+TODO LOS COMPONENTES PADRE SIEMPRE LO TIENEN SEPARADO O EN UNA PÁGINA INDEPENDIENTE (en todo lo UI KIDS) 
+
+"Mantente Ordenado"
 
  
-
+## 
 
 
 
