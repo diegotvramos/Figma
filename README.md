@@ -1824,6 +1824,9 @@ icon arrow circle
 
 los iconos de la página `https://boxicons.com/` tiene el icono para los vehiculos
 
+Para que haya un espacio entre el borde final de la targeta, no olvides poner un _Padding_ 
+
+![vertical-padding](/assets/vertical-padding.png)
 
 
 
