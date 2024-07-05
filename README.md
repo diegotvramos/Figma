@@ -1868,8 +1868,45 @@ TODO LOS COMPONENTES PADRE SIEMPRE LO TIENEN SEPARADO O EN UNA PÁGINA INDEPENDI
 "Mantente Ordenado"
 
  
-## 
+## Proyecto Final: Layout Mobile
+
+El orden es muy importante.
+
+Creamos una nueva página llamada: '_Layouts_'
+
+Creamos un Frame y añadimos las cuadriculas de una Grid a 16px que es la base tipográfica.
+
+Debemos revisar la propuesta visual que se encuentra en la página que creamos con el nombre de: _Wiframes_
+
+Cuando escales las cosas, fijate que no tengas la herramienta selección por que si tu escala así solo vas a escalar el elemento en cuenstion y no el componente.
+
+![herramienta-escale](/assets/heramienta-escale.png)
+
+Entonces fijaque que tengas seleccionada la herramienta de escala
+
+
+La pregunta aca es: ¿Para qué es la mascara?
+
+creo que es para que solo se muestre una sección de la imagen. _revisa este readme.md y encontrarás una explicación detallada_
+
+ahora que creamos la Hero image lo volvemos componente.
+
+![hero-image-figma](/assets/hero-image-figma.png)
+
+ve que los componentes se crean de poco a poco. Salvo que lo tengas bien definido.
+
+para mantener el orden, cortas el componente original y lo llevas a la pagina "_Components_"
+
+y depues en la pagina layout llamamos a esa instancia o componente.
+
+ponemos logo.
+
+en la  parte de _constraints_ quiero que cresca en izquieda y derecha pero siempre abajo(boton)
+
+![constraints-logo](/assets/constraints-logo.png)
 
 
 
 
+
+min 12
