@@ -1905,8 +1905,37 @@ en la  parte de _constraints_ quiero que cresca en izquieda y derecha pero siemp
 
 ![constraints-logo](/assets/constraints-logo.png)
 
+si revisamos nuestro _proceso creativo_ vamos hacer el prototipado funcional, por lo que el _Layout_ se va quedar estático
+
+Hay ciertas caracteristicas que no podemos modificar a las copias de los componentes: no puedo manipular las formas, vectores, no podemos modificar su posicion y tamaño en X y Y.
+
+El tamaño del porcentaje de las barras de habilidad, no se pueden cambiar, pero hay dos formas de solucionarlo, 
+
+1. crear varios componentes con respectivo porcentaje
+2. Desvincular la instancia del componente padre 
+
+hacemos la regla de 3  288 x 0.7
+
+**Sección Acerca**
+
+ve que el fondo de esta sección es de un tono gris.
+
+Al parecer los márgenes en CSS si se juntan(cruzan).
+
+Para hacer un intercambio de un elemento en una instancia me refiero a la copia de un componente.
+
+![intercambio-de-instancia](/assets/intercambio-de-instancia.png)
+
+¿Como inspeccionar el elemento Hover en Chrome?
+
+buscas y encuentras.
 
 
 
 
-min 12
+
+
+
+
+
+min 35
