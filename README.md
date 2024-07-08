@@ -1930,12 +1930,29 @@ Para hacer un intercambio de un elemento en una instancia me refiero a la copia 
 
 buscas y encuentras.
 
+**Sección Mis Trabajos**
+
+vamos a usar el plugin 'Unsplash'
+
+sustituimos los rellenos(FILL) solo con seleccionar el relleno y buscar la imagen en 'Unsplash'
+
+![reemplazando-imagen](/assets/sustituyendo-relleno-imagen.png)
+
+¿Como ejecutar el ultimo _plugin_?
+
+> `ctrl + shift + p`
+
+Recuerda, para aplicar _AutoLayout_ necesito por lo menos 2 componentes
+
+para colocar iconos literarios: colocamos los nombred de las redes sociales.
+
+![font-awesome-5-free](/assets/font-awesome%20-5-free.png)
+
+Para colocar iconos en vez de letras usamos eta tipografia
+
+![5-brands-icons](/assets/5-brands-icons.png)
+
+Cuando se procese el formulario hace un evento Submit.
 
 
-
-
-
-
-
-
-min 35
+##  Proyecto Final: Layout Tablet
