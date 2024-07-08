@@ -1956,3 +1956,43 @@ Cuando se procese el formulario hace un evento Submit.
 
 
 ##  Proyecto Final: Layout Tablet
+
+
+creamos un nuevo _Frame_ para eso podemos usar las medidas de `Ipad mini 5`
+
+como la instancia del componente padre 'hero-image' no me permite hacer modificaciones lo **desvinculo**(detach instance)
+
+recuerda que _Auto-width_ hace que el tamaño de la caja del texto se ajuste al texto
+
+![auto-width](/assets/auto-width-2.png)
+
+> las notas aclaratorias que pusimos en la version movil no es necesario replicarlas por que son las mismas en tamaño tableta.
+
+> el #frame y el ⬜ rectangulo tienen tamaños distintos
+
+cuando copiemos un frame con autolayout, procuremos quitar el auto layout con (➖) para volver a escalar al nuevo tamaño.
+
+las imagenes las debemos escalar si o si. para que quepan correctamente.
+
+NOTA: 
+
+si queremos que el espacio entre elementos sea de 32px y este se adecue a cualquier tipo de pantalla lo que devemos de hacer es:
+
+![repeat](/assets/grid-repeat.png)
+
+sacar el porcentaje de 32px. qu es igual a 3.5% de toda la pantalla. eso quiere decir que las columnas van a ocupar 48.25 cada una.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
