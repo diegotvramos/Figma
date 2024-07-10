@@ -1983,7 +1983,13 @@ si queremos que el espacio entre elementos sea de 32px y este se adecue a cualqu
 sacar el porcentaje de 32px. qu es igual a 3.5% de toda la pantalla. eso quiere decir que las columnas van a ocupar 48.25 cada una.
 
 
+## Proyecto Final: Layout Desktop
 
+ponemos un _frame_ de tamaño estandar (1280 x 720)
+
+
+
+min 5
 
 
 
