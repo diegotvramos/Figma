@@ -1991,7 +1991,17 @@ en pantallas (1280 x 720) el contenido se centra, es decir tiene una maxima anch
 
 ![max-width](/assets/max-width.png)
 
+aplicamos _autoLayout_ y despues escalamos
 
+> despues de aplicar _autoLayout_ no olvides asignarle el tamaño correspondiente al lienzo del frame.
+
+![lienzo-frame](/assets/lienzo-frame.png)
+
+puedes exportarlo tanto en PNG, JPG, PDF.
+
+Hasta acá podrias entregarle a los programadores tu diseño.
+
+## Proyecto Final: Prototipos
 
 
 
