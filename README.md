@@ -1987,9 +1987,13 @@ sacar el porcentaje de 32px. qu es igual a 3.5% de toda la pantalla. eso quiere 
 
 ponemos un _frame_ de tamaño estandar (1280 x 720)
 
+en pantallas (1280 x 720) el contenido se centra, es decir tiene una maxima anchura `--max-width: 1200px`, ve que lo unico que fluye es el color de la cabecera, el color del footer, y el hero-image.
+
+![max-width](/assets/max-width.png)
 
 
-min 5
+
+
 
 
 
