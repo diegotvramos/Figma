@@ -2003,13 +2003,57 @@ Hasta acá podrias entregarle a los programadores tu diseño.
 
 ## Proyecto Final: Prototipos
 
+Uno de los atractivos que tiene esta herramienta IU/UX es dar interactividad.
+
+Cada prototipo: mobile, tablet, desktop deben estar en una página independiente.
+
+Recuerda, este proyecto es una landing page(una página de un solo documento) por eso todo el diseño lo hice en un solo frame.
+
+y si, actualmente se puede enlazar a un elemento, componente de el mismo _Frame_ 🤗🤗
+
+Entonces:
+
+* seleccionamos el boton.
+
+* lo uno a el elemento, componente o seccion.
+
+* y le digo cuano le precione tenga un efecto **_dissolve_** y que preserve su posicion de _scroll_
+
+¿Cómo probamos el prototipo?
+
+simplemente dandole al boton play ▶
+
+tenemos un inconveniente, la cabecera no está fija en la simulacion.
+
+Sí necesitas fijar un elemento no dirigimos a la pestaña de _prototype_(prototipi) le activamos esta opcion: 
+
+![prototype-position](/assets/prototype-position.png)
+
+seleccionamos la posicion fija _fixed_.
+
+![prototype-fixed](/assets/prototype-fixed.png)
+
+el resultado es el siguiente al simular el prototipo.
+
+![resultado-fixed](/assets/resultado-fixed.png)
+
+
+la opcion stiky funcionaria en la vercion deskop?
+
+hacemos que el overlay sea manual y posicionamos donde queremos que aparesca nuestro menú.
+
+![overlay-manual](/assets/overlay-manual.png)
+
+tenia un pequeño inconveniente al momento de cerrar el Modal(_Overlay_) no ce cerraba por completo el hover asi que al dar click en el boton X se vuelve al frame 
+
+![solucion-hover](/assets/solucion-hover.png)
+
+
+> la accion no tiene que ser back por que es un elemento no es un _frame_ sino debe ser _close overflow_(cerrar overlaw)
 
 
 
-
-
-
-
+min 40
 
 
 
