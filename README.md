@@ -4,9 +4,14 @@
 
 # Curso de Figma
 
-**[link-1](https://www.figma.com/design/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=13-2&t=lzHgTZYacNoNimSP-1)**
+**[link](https://www.figma.com/design/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=13-2&t=lzHgTZYacNoNimSP-1)**
 
-**[link-2 enbebido](https://www.figma.com/proto/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?t=lzHgTZYacNoNimSP-1)**
+
+**[link de prototipo mobil](https://www.figma.com/proto/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=151-483&t=FFRwl0qdKcyDcsV1-1&scaling=min-zoom&content-scaling=fixed&page-id=151%3A452)**
+
+**[link de prototipo tablet](https://www.figma.com/proto/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=192-616&t=CjwC2ePD4mQfiiX6-1&scaling=min-zoom&content-scaling=fixed&page-id=192%3A241&starting-point-node-id=192%3A616)**
+
+**[link de prototipo Desktop](https://www.figma.com/proto/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=196-724&t=akKc0vDDtbnxQNeS-1&scaling=min-zoom&content-scaling=fixed&page-id=196%3A357&starting-point-node-id=196%3A724)**
 
 
 Figma es una aplicación para diseñar interfaces de usuario es decir para trabajar todo lo que tiene que ver con IU(user interface) UX(user experience).
