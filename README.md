@@ -4,6 +4,11 @@
 
 # Curso de Figma
 
+**![link-1](https://www.figma.com/design/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?node-id=13-2&t=lzHgTZYacNoNimSP-1)**
+
+**![link-2 enbebido](https://www.figma.com/proto/X3rWd8MPKr9OJ1J7UJrByc/Proyecto-CV?t=lzHgTZYacNoNimSP-1)**
+
+
 Figma es una aplicación para diseñar interfaces de usuario es decir para trabajar todo lo que tiene que ver con IU(user interface) UX(user experience).
 
 Es una Web Aplication es decir tu trabajas desde figma desde el navegador web
@@ -2051,9 +2056,7 @@ tenia un pequeño inconveniente al momento de cerrar el Modal(_Overlay_) no ce c
 
 > la accion no tiene que ser back por que es un elemento no es un _frame_ sino debe ser _close overflow_(cerrar overlaw)
 
-
-
-min 40
+## Nuevas Características Plan Free y Multicuentas de Usuario
 
 
 
