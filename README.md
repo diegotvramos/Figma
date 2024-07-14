@@ -2063,7 +2063,13 @@ tenia un pequeño inconveniente al momento de cerrar el Modal(_Overlay_) no ce c
 
 ## Nuevas Características Plan Free y Multicuentas de Usuario
 
+Puedo adicionar cuentas de figma y cambiarlas.
 
+cuando abra un proyecto de una 3ra persona, vamos a ir a nuestro draft y lo guarda como una actividad reciente, entonces procedemos a duplicar o copiar el proyecto Figma en nuestro draft así:
+
+![duplicate-figma](/assets/duplicate-proyect.png)
+
+podemos importar proyectos descargados anteriormente. (buena opción)
 
 
 
