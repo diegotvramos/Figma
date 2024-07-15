@@ -2071,6 +2071,50 @@ cuando abra un proyecto de una 3ra persona, vamos a ir a nuestro draft y lo guar
 
 podemos importar proyectos descargados anteriormente. (buena opción)
 
+## FigJam - PROCESO CREATIVO
+
+FigJam es una nueva herramienta que nos va permitir trabajar el proceso creativo de forma colaborativa. es similar a Miro, Mural o Lucidspark (aplicación donde puedes colaborar en tiempo real y tener esta lluvia de ideas) esta herramienta es muy util para la gente que trabaja en un grupo de diseño de interaccion quizá para los freelanz no tanto. 
+
+Con esto FigJam ya tiene el proceso global de lo que es el diseño de interacción, tanto en nivel creativo y tanto nivel de diseño.
+
+Puedes hacer:
+- Dreaming up new ideas (soñando nuevas ideas)
+
+- sharing team updates (compartir actualizaciones del equipo)
+
+- planning for the future (planificación para el futuro)
+
+- drawing up diagrams (elaboración de diagramas) Diagrama de Flujo
+
+- Mapa mental
+
+para que este archivo sea editable para el grupo u otra persona, Figma nos recomiendda mover de Drafts => Proyect
+
+![mover-a-proyecto](/assets/para-mover-a-proyecto.png)
+
+Ahora si puedo invitar a personas para que puedan editar.
+
+![invitando-editor](/assets/invitando-editor.png)
+
+puedes crear varios teams, pero los archivos de diseño solo son 3 y las páginas de las mismas están limitadas a 3.
+
+FigJam ya trae algunos templates preestablecidos para no empesar desde 0 
+
+una nueva caracteristica es que tiene cronometro para algunas lluvias de ideas. Es de paga.
+
+Tambien hay una nueva caracteristica para poderse comunicar por chat. pero es de paga.
+
+puedo cortar y pegar del documento de diseño el _Frame_ y despues pegarlo a FigJam
+
+![comentando-diseño](/assets/comentado-diseño-en-figjam.png)
+
+y asi no lo ensuciamos.
+
+> tanto los atajos de Figma como los atajos de FifJam son lo mismo.
+
+Cada vez que tu utilizas un Template por separado osea lo abres en nueva pestaña, se va ir a la carpeta de Draft
 
 
+
+##
 
