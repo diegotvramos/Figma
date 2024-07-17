@@ -2116,5 +2116,75 @@ Cada vez que tu utilizas un Template por separado osea lo abres en nueva pestañ
 
 
 
-##
+## Activa el Educational plan
+
+Si tienes el correo de alguna institución educativa
+
+Hay un plan gratuito para estudiantes y educadores
+
+![plan-estudiantes-educadores](/assets/plan-estudiantes-educadore.png)
+
+
+> `https://www.figma.com/es-la/education/`
+
+esto no lo hagas con tu cuenta personal sino con el correo de alguna institución educativa te permita.
+
+por que cuando verifiques tu correo con tu correo electronico que termina en @gmail.com, @hotmail.com entonces no te va dar el acceso.
+
+La verificacion toma tiempo, como horas o días. No es inmediato y lo hacen personalmente.
+
+Cuando por fin obtienes el plan educativo no tienes que pasar tus diseños a un proyecto nuevo como lo hacemos en el plan gratuito.
+
+El plan educativo tiene toda las caracteristicas profecionales.
+
+toda las caracteristicas que tenga la cuenta que te esté invitando a colaborar tambien las vas a tener tú.
+
+La gente de figma es gente que piensa en que muchos de los problemas de este mundo se solucionan desde la educación.
+
+Lo unico que necesitas es tener un correo de alguna institución educativa. LA UMSA TIENE ESTE TIPO DE CORREO.
+
+## El modo DEV
+
+Simplifica la labor de una persona de desarrollo.
+
+al momento de selecionar el modo desarrollador me permite inspecionar(como en los navegadores) los elementos.
+
+![dev-move](/assets/dev-mode.png)
+
+**Modo listo para desarrollar**
+
+
+* Primero creo una seccion donde voy a colocarlo desbues de darle el visto bueno
+
+![section](/assets/section.png)
+
+despues copio a esa secction todo el deseño a desarrollar
+
+![ready-for-dev](/assets/ready-for-dev.png)
+
+
+Tambien podemos ver el historial de cambios. es como el github visual. para eso solo seccionamos el nombre de la sección y ver historial de cambios
+
+Tambien hay la sección de plugin que puedes usar para el modo desarrollador
+
+![dev-plugin](/assets/dev-plugins.png)
+
+(genera mucho código basura)
+
+hay extenciones(_Plugin_) que te permiten conectar con tu cuenta de Github
+
+Puedes decargar la extención de Figma en el editor de código VsCode
+
+![figma-vscode](/assets/plugin-figma-to-vscode.png)
+
+podemos dejar links en la parte de recursos para desarrollador a cada elemento que lo necesite en nuestro diseño.
+
+Es una exelente herramienta que sobre todo en equipos multidiciplinarios va poder hacer una mejor coheción entre los equipos de diseño y desarrollo. 💞
+
+
+
+
+
+
+
 
