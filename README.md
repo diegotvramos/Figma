@@ -2181,6 +2181,12 @@ podemos dejar links en la parte de recursos para desarrollador a cada elemento q
 
 Es una exelente herramienta que sobre todo en equipos multidiciplinarios va poder hacer una mejor coheción entre los equipos de diseño y desarrollo. 💞
 
+¿con que colores combina el marrón?
+
+`https://www.missdecoradora.com/colores-que-combinan-con-marron/`
+
+![combinacion-marron](/assets/combinacion-color.png)
+
 
 
 
