@@ -1363,7 +1363,7 @@ indicadores:
 > Código (Nativo, Escrito o Web)
 
 
-_no es que religiosamente tengamos que seguir estos 5 pasos, pueso sarlarme del paso 1 al paso 5 o del paso 3 a el paso 5_
+_no es que religiosamente tengamos que seguir estos 5 pasos, puedo sarltarme del paso 1 al paso 5 o del paso 3 a el paso 5_
 
 PROYECTO: one page scroll
 
